@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.000116] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000145] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000166] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000183] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000200] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000219] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000237] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000254] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000271] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000358] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000385] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000429] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000455] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000476] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000591] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000612] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000653] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000674] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000695] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000717] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000736] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000753] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000770] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000787] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000805] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000822] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000839] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000856] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000876] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.000898] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.099366] (-) TimerEvent: {}
+[0.169182] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.170198] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/bfmadera/ros2_ws/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/more_interfaces'], 'cwd': '/home/bfmadera/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bfmadera'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bfmadera/catkin_ws/devel/lib'), ('HOME', '/home/bfmadera'), ('OLDPWD', '/home/bfmadera'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bfmadera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ''), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bfmadera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bfmadera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin'), ('SESSION_MANAGER', 'local/bfmadera-340XAA-350XAA-550XAA:@/tmp/.ICE-unix/2015,unix/bfmadera-340XAA-350XAA-550XAA:/tmp/.ICE-unix/2015'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b922bf9_f191_4e99_9124_56a657bc56b3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YDI3H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/bfmadera/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/bfmadera/catkin_ws/devel')]), 'shell': False}
+[0.214311] (-) TimerEvent: {}
+[0.315177] (-) TimerEvent: {}
+[0.415981] (-) TimerEvent: {}
+[0.516658] (-) TimerEvent: {}
+[0.617408] (-) TimerEvent: {}
+[0.718131] (-) TimerEvent: {}
+[0.818770] (-) TimerEvent: {}
+[0.919239] (-) TimerEvent: {}
+[1.020037] (-) TimerEvent: {}
+[1.120845] (-) TimerEvent: {}
+[1.221246] (-) TimerEvent: {}
+[1.322142] (-) TimerEvent: {}
+[1.422848] (-) TimerEvent: {}
+[1.523669] (-) TimerEvent: {}
+[1.624254] (-) TimerEvent: {}
+[1.724667] (-) TimerEvent: {}
+[1.825421] (-) TimerEvent: {}
+[1.926092] (-) TimerEvent: {}
+[2.026639] (-) TimerEvent: {}
+[2.127404] (-) TimerEvent: {}
+[2.198506] (more_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.227712] (-) TimerEvent: {}
+[2.328382] (-) TimerEvent: {}
+[2.428720] (-) TimerEvent: {}
+[2.529176] (-) TimerEvent: {}
+[2.629901] (-) TimerEvent: {}
+[2.730811] (-) TimerEvent: {}
+[2.831573] (-) TimerEvent: {}
+[2.932282] (-) TimerEvent: {}
+[3.033026] (-) TimerEvent: {}
+[3.133552] (-) TimerEvent: {}
+[3.234201] (-) TimerEvent: {}
+[3.272222] (more_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.334450] (-) TimerEvent: {}
+[3.355292] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.434576] (-) TimerEvent: {}
+[3.535081] (-) TimerEvent: {}
+[3.635579] (-) TimerEvent: {}
+[3.671782] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.683287] (more_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.683821] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.699325] (more_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.703890] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.735760] (-) TimerEvent: {}
+[3.836521] (-) TimerEvent: {}
+[3.937148] (-) TimerEvent: {}
+[4.002013] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.011478] (more_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.011784] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.012459] (more_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.037322] (-) TimerEvent: {}
+[4.137612] (-) TimerEvent: {}
+[4.238177] (-) TimerEvent: {}
+[4.320721] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.338376] (-) TimerEvent: {}
+[4.439095] (-) TimerEvent: {}
+[4.539822] (-) TimerEvent: {}
+[4.640087] (-) TimerEvent: {}
+[4.740492] (-) TimerEvent: {}
+[4.823668] (more_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[4.840640] (-) TimerEvent: {}
+[4.941135] (-) TimerEvent: {}
+[5.041667] (-) TimerEvent: {}
+[5.142415] (-) TimerEvent: {}
+[5.243103] (-) TimerEvent: {}
+[5.312569] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.343241] (-) TimerEvent: {}
+[5.343863] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.364516] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.433183] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.443503] (-) TimerEvent: {}
+[5.544106] (-) TimerEvent: {}
+[5.644650] (-) TimerEvent: {}
+[5.745417] (-) TimerEvent: {}
+[5.846025] (-) TimerEvent: {}
+[5.933805] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.946297] (-) TimerEvent: {}
+[6.047005] (-) TimerEvent: {}
+[6.147709] (-) TimerEvent: {}
+[6.168400] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.247826] (-) TimerEvent: {}
+[6.348340] (-) TimerEvent: {}
+[6.448847] (-) TimerEvent: {}
+[6.528170] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.542699] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.548921] (-) TimerEvent: {}
+[6.649220] (-) TimerEvent: {}
+[6.749724] (-) TimerEvent: {}
+[6.850436] (-) TimerEvent: {}
+[6.951299] (-) TimerEvent: {}
+[7.052043] (-) TimerEvent: {}
+[7.152859] (-) TimerEvent: {}
+[7.253495] (-) TimerEvent: {}
+[7.354102] (-) TimerEvent: {}
+[7.393395] (more_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.454185] (-) TimerEvent: {}
+[7.454534] (more_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.511535] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.554392] (-) TimerEvent: {}
+[7.655283] (-) TimerEvent: {}
+[7.672086] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.755555] (-) TimerEvent: {}
+[7.856065] (-) TimerEvent: {}
+[7.956751] (-) TimerEvent: {}
+[8.057456] (-) TimerEvent: {}
+[8.158115] (-) TimerEvent: {}
+[8.258843] (-) TimerEvent: {}
+[8.296433] (more_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.296783] (more_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.359080] (-) TimerEvent: {}
+[8.459899] (-) TimerEvent: {}
+[8.480550] (more_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.482161] (more_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.560110] (-) TimerEvent: {}
+[8.660828] (-) TimerEvent: {}
+[8.761582] (-) TimerEvent: {}
+[8.861848] (-) TimerEvent: {}
+[8.962146] (-) TimerEvent: {}
+[9.062442] (-) TimerEvent: {}
+[9.063993] (more_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[9.064226] (more_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/Message1.msg' doesn't\n"}
+[9.064423] (more_interfaces) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[9.064537] (more_interfaces) StderrLine: {'line': b"  '/home/bfmadera/ros2_ws/src/more_interfaces'\n"}
+[9.064650] (more_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.064752] (more_interfaces) StderrLine: {'line': b'  CMakeLists.txt:44 (rosidl_generate_interfaces)\n'}
+[9.064894] (more_interfaces) StderrLine: {'line': b'\n'}
+[9.065014] (more_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[9.065122] (more_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.065231] (more_interfaces) StdoutLine: {'line': b'See also "/home/bfmadera/ros2_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[9.075273] (more_interfaces) CommandEnded: {'returncode': 1}
+[9.162664] (-) TimerEvent: {}
+[9.263337] (-) TimerEvent: {}
+[9.355994] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 1}
+[9.363596] (-) TimerEvent: {}
+[9.367928] (-) EventReactorShutdown: {}

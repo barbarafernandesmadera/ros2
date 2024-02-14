@@ -1,0 +1,25 @@
+[0.946s] Invoking command in '/home/bfmadera/ros2_ws/src/py_srvcli': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/catkin_ws/devel PYTHONPATH=/home/bfmadera/ros2_ws/build/py_srvcli/prefix_override:/home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/bfmadera/ros2_ws/build/py_srvcli/build install --record /home/bfmadera/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[1.233s] running egg_info
+[1.234s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[1.234s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[1.235s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[1.235s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[1.235s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[1.237s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.237s] adding license file 'LICENSE'
+[1.238s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[1.238s] running build
+[1.238s] running build_py
+[1.238s] running install
+[1.238s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.238s]   warnings.warn(
+[1.238s] running install_lib
+[1.240s] running install_data
+[1.240s] running install_egg_info
+[1.243s] removing '/home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.244s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[1.245s] running install_scripts
+[1.267s] Installing client script to /home/bfmadera/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.267s] Installing service script to /home/bfmadera/ros2_ws/install/py_srvcli/lib/py_srvcli
+[1.267s] writing list of installed files to '/home/bfmadera/ros2_ws/build/py_srvcli/install.log'
+[1.293s] Invoked command in '/home/bfmadera/ros2_ws/src/py_srvcli' returned '0': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/catkin_ws/devel PYTHONPATH=/home/bfmadera/ros2_ws/build/py_srvcli/prefix_override:/home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/bfmadera/ros2_ws/build/py_srvcli/build install --record /home/bfmadera/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
