@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000114] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000144] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000302] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000379] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000399] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000426] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000465] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000521] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000541] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000615] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000634] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000654] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000679] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000715] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000736] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000793] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000812] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000884] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000903] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000928] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000967] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001036] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001056] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001128] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001147] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001172] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001210] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001238] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.001302] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.099289] (-) TimerEvent: {}
+[0.185538] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.185974] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '/home/bfmadera/ros2_ws/src/cpp_srvcli', '-DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/cpp_srvcli'], 'cwd': '/home/bfmadera/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bfmadera'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bfmadera/catkin_ws/devel/lib'), ('HOME', '/home/bfmadera'), ('OLDPWD', '/home/bfmadera'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '97742'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bfmadera/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bfmadera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ''), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bfmadera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bfmadera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin'), ('SESSION_MANAGER', 'local/bfmadera-340XAA-350XAA-550XAA:@/tmp/.ICE-unix/1936,unix/bfmadera-340XAA-350XAA-550XAA:/tmp/.ICE-unix/1936'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1dc92cb_889d_4409_bf42_80f4488b01fd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ZEITGEIST_DATA_PATH', '/home/bfmadera/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NB07H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.621'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/bfmadera/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bfmadera/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/build/launch_testing_examples:/home/bfmadera/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/build/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/build/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/build/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/build/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/build/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/build/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/build/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/build/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/build/examples_rclpy_executors:/home/bfmadera/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel')]), 'shell': False}
+[0.199424] (-) TimerEvent: {}
+[0.299976] (-) TimerEvent: {}
+[0.400420] (-) TimerEvent: {}
+[0.501089] (-) TimerEvent: {}
+[0.601943] (-) TimerEvent: {}
+[0.702699] (-) TimerEvent: {}
+[0.803608] (-) TimerEvent: {}
+[0.904504] (-) TimerEvent: {}
+[1.005346] (-) TimerEvent: {}
+[1.106219] (-) TimerEvent: {}
+[1.205424] (cpp_srvcli) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.206300] (-) TimerEvent: {}
+[1.306684] (-) TimerEvent: {}
+[1.399737] (cpp_srvcli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.406884] (-) TimerEvent: {}
+[1.462260] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.507026] (-) TimerEvent: {}
+[1.566914] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.575101] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.575586] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.593285] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.606161] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.607185] (-) TimerEvent: {}
+[1.705365] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.707283] (-) TimerEvent: {}
+[1.713644] (cpp_srvcli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.713948] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.714428] (cpp_srvcli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.807799] (-) TimerEvent: {}
+[1.908562] (-) TimerEvent: {}
+[1.999243] (cpp_srvcli) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.008755] (-) TimerEvent: {}
+[2.109605] (-) TimerEvent: {}
+[2.210524] (-) TimerEvent: {}
+[2.310926] (-) TimerEvent: {}
+[2.411458] (-) TimerEvent: {}
+[2.511713] (-) TimerEvent: {}
+[2.543092] (cpp_srvcli) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.611875] (-) TimerEvent: {}
+[2.712302] (-) TimerEvent: {}
+[2.812955] (-) TimerEvent: {}
+[2.913664] (-) TimerEvent: {}
+[3.014344] (-) TimerEvent: {}
+[3.114772] (-) TimerEvent: {}
+[3.205219] (cpp_srvcli) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.215023] (-) TimerEvent: {}
+[3.315693] (-) TimerEvent: {}
+[3.416507] (-) TimerEvent: {}
+[3.517130] (-) TimerEvent: {}
+[3.617784] (-) TimerEvent: {}
+[3.718590] (-) TimerEvent: {}
+[3.819553] (-) TimerEvent: {}
+[3.920282] (-) TimerEvent: {}
+[4.021066] (-) TimerEvent: {}
+[4.121561] (-) TimerEvent: {}
+[4.172506] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.221820] (-) TimerEvent: {}
+[4.322896] (-) TimerEvent: {}
+[4.361377] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.423273] (-) TimerEvent: {}
+[4.524216] (-) TimerEvent: {}
+[4.625039] (-) TimerEvent: {}
+[4.725841] (-) TimerEvent: {}
+[4.826573] (-) TimerEvent: {}
+[4.853407] (cpp_srvcli) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.926703] (-) TimerEvent: {}
+[4.942866] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.026840] (-) TimerEvent: {}
+[5.054489] (cpp_srvcli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.127133] (-) TimerEvent: {}
+[5.227605] (-) TimerEvent: {}
+[5.328458] (-) TimerEvent: {}
+[5.429149] (-) TimerEvent: {}
+[5.493160] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.529383] (-) TimerEvent: {}
+[5.551789] (cpp_srvcli) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.629550] (-) TimerEvent: {}
+[5.729891] (-) TimerEvent: {}
+[5.830465] (-) TimerEvent: {}
+[5.931149] (-) TimerEvent: {}
+[6.031811] (-) TimerEvent: {}
+[6.132554] (-) TimerEvent: {}
+[6.233166] (-) TimerEvent: {}
+[6.234027] (cpp_srvcli) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.333297] (-) TimerEvent: {}
+[6.337481] (cpp_srvcli) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.401563] (cpp_srvcli) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.433583] (-) TimerEvent: {}
+[6.534296] (-) TimerEvent: {}
+[6.552296] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.634678] (-) TimerEvent: {}
+[6.735614] (-) TimerEvent: {}
+[6.836525] (-) TimerEvent: {}
+[6.937223] (-) TimerEvent: {}
+[6.997684] (cpp_srvcli) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.998250] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.037353] (-) TimerEvent: {}
+[7.080880] (cpp_srvcli) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.082280] (cpp_srvcli) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.137536] (-) TimerEvent: {}
+[7.238052] (-) TimerEvent: {}
+[7.338322] (-) TimerEvent: {}
+[7.438602] (-) TimerEvent: {}
+[7.504059] (cpp_srvcli) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[7.538955] (-) TimerEvent: {}
+[7.639362] (-) TimerEvent: {}
+[7.739711] (-) TimerEvent: {}
+[7.840146] (-) TimerEvent: {}
+[7.940416] (-) TimerEvent: {}
+[8.040902] (-) TimerEvent: {}
+[8.063982] (cpp_srvcli) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.076369] (cpp_srvcli) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (add_executable):\n'}
+[8.076598] (cpp_srvcli) StderrLine: {'line': b'  Cannot find source file:\n'}
+[8.076698] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[8.076929] (cpp_srvcli) StderrLine: {'line': b'    src/add_two_ints_client.cpp\n'}
+[8.077044] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[8.077137] (cpp_srvcli) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[8.077238] (cpp_srvcli) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[8.077327] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[8.077411] (cpp_srvcli) StderrLine: {'line': b'\x1b[0m\n'}
+[8.077494] (cpp_srvcli) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (add_executable):\n'}
+[8.077578] (cpp_srvcli) StderrLine: {'line': b'  No SOURCES given to target: client\n'}
+[8.077661] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[8.077744] (cpp_srvcli) StderrLine: {'line': b'\x1b[0m\n'}
+[8.077826] (cpp_srvcli) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[8.089657] (cpp_srvcli) CommandEnded: {'returncode': 1}
+[8.141291] (-) TimerEvent: {}
+[8.154696] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 1}
+[8.165229] (-) EventReactorShutdown: {}

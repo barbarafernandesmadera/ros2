@@ -1,0 +1,44 @@
+[1.923s] Invoking command in '/home/bfmadera/ros2_ws/src/py_srvcli': PYTHONPATH=/home/bfmadera/ros2_ws/build/py_srvcli/prefix_override:/home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/bfmadera/ros2_ws/build/py_srvcli/build install --record /home/bfmadera/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed
+[2.230s] running egg_info
+[2.231s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[2.231s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[2.231s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[2.231s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[2.231s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[2.231s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[2.231s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.233s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.233s] adding license file 'LICENSE'
+[2.234s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[2.234s] running build
+[2.234s] running build_py
+[2.234s] creating /home/bfmadera/ros2_ws/build/py_srvcli/build
+[2.234s] creating /home/bfmadera/ros2_ws/build/py_srvcli/build/lib
+[2.234s] creating /home/bfmadera/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[2.234s] copying py_srvcli/client_member_function.py -> /home/bfmadera/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[2.235s] copying py_srvcli/__init__.py -> /home/bfmadera/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[2.235s] copying py_srvcli/service_member_function.py -> /home/bfmadera/ros2_ws/build/py_srvcli/build/lib/py_srvcli
+[2.235s] running install
+[2.259s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.259s]   warnings.warn(
+[2.260s] running install_lib
+[2.262s] creating /home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.262s] copying /home/bfmadera/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.263s] copying /home/bfmadera/ros2_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.263s] copying /home/bfmadera/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[2.264s] byte-compiling /home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[2.265s] byte-compiling /home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[2.266s] byte-compiling /home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[2.267s] running install_data
+[2.268s] creating /home/bfmadera/ros2_ws/install/py_srvcli/share/ament_index
+[2.269s] creating /home/bfmadera/ros2_ws/install/py_srvcli/share/ament_index/resource_index
+[2.269s] creating /home/bfmadera/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[2.269s] copying resource/py_srvcli -> /home/bfmadera/ros2_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[2.270s] copying package.xml -> /home/bfmadera/ros2_ws/install/py_srvcli/share/py_srvcli
+[2.270s] running install_egg_info
+[2.275s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[2.277s] running install_scripts
+[2.304s] Installing client script to /home/bfmadera/ros2_ws/install/py_srvcli/lib/py_srvcli
+[2.304s] Installing service script to /home/bfmadera/ros2_ws/install/py_srvcli/lib/py_srvcli
+[2.304s] writing list of installed files to '/home/bfmadera/ros2_ws/build/py_srvcli/install.log'
+[2.333s] Invoked command in '/home/bfmadera/ros2_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/bfmadera/ros2_ws/build/py_srvcli/prefix_override:/home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/bfmadera/ros2_ws/build/py_srvcli/build install --record /home/bfmadera/ros2_ws/build/py_srvcli/install.log --single-version-externally-managed

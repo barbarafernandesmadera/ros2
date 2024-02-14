@@ -1,0 +1,30 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000211] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000296] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000378] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000418] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000437] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000455] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000471] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000488] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000505] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000521] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000537] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000554] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000570] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000587] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000603] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000619] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000636] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000652] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000673] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000690] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000706] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000722] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000739] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000755] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000772] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000788] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000804] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000821] (-) EventReactorShutdown: {}

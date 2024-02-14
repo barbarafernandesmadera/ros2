@@ -1,0 +1,2 @@
+Invoking command in '/home/bfmadera/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/bfmadera/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/cpp_srvcli
+Invoked command in '/home/bfmadera/ros2_ws/build/cpp_srvcli' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/bfmadera/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/cpp_srvcli
