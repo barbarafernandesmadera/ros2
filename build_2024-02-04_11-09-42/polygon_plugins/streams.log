@@ -1,0 +1,147 @@
+[0.105s] Invoking command in '/home/bfmadera/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/polygon_base:/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/more_interfaces:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/cpp_parameters:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/python_parameters:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel /usr/bin/cmake /home/bfmadera/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/polygon_plugins
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.233s] -- The CXX compiler identification is GNU 11.4.0
+[0.241s] -- Detecting C compiler ABI info
+[0.317s] -- Detecting C compiler ABI info - done
+[0.326s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.326s] -- Detecting C compile features
+[0.326s] -- Detecting C compile features - done
+[0.330s] -- Detecting CXX compiler ABI info
+[0.419s] -- Detecting CXX compiler ABI info - done
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.428s] -- Detecting CXX compile features
+[0.428s] -- Detecting CXX compile features - done
+[0.435s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.668s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.822s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.841s] -- Found polygon_base: 0.0.0 (/home/bfmadera/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[0.846s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.984s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.074s] -- Configuring done
+[1.079s] -- Generating done
+[1.080s] -- Build files have been written to: /home/bfmadera/ros2_ws/build/polygon_plugins
+[1.087s] Invoked command in '/home/bfmadera/ros2_ws/build/polygon_plugins' returned '0': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/polygon_base:/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/more_interfaces:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/cpp_parameters:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/python_parameters:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel /usr/bin/cmake /home/bfmadera/ros2_ws/src/polygon_plugins -DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/polygon_plugins
+[1.089s] Invoking command in '/home/bfmadera/ros2_ws/build/polygon_plugins': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/polygon_base:/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/more_interfaces:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/cpp_parameters:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/python_parameters:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel /usr/bin/cmake --build /home/bfmadera/ros2_ws/build/polygon_plugins -- -j8 -l8
+[1.146s] [ 50%] [32mBuilding CXX object CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o[0m
+[3.474s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:5:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kpolygon_base[m[K’ has not been declared
+[3.474s]     5 |   class Square : public [01;31m[Kpolygon_base[m[K::RegularPolygon
+[3.475s]       |                         [01;31m[K^~~~~~~~~~~~[m[K
+[3.475s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:5:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KRegularPolygon[m[K’
+[3.475s]     5 |   class Square : public polygon_base::[01;31m[KRegularPolygon[m[K
+[3.475s]       |                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.475s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:7:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[3.475s]     7 |     [01;31m[Kpublic[m[K:
+[3.475s]       |     [01;31m[K^~~~~~[m[K
+[3.475s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:7:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[3.476s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:6:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.476s]     6 |   [01;36m[K{[m[K
+[3.476s]       |   [01;36m[K^[m[K
+[3.476s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:13:21:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Karea[m[K’ not allowed outside a class definition
+[3.476s]    13 |       double area() [01;31m[Koverride[m[K
+[3.476s]       |                     [01;31m[K^~~~~~~~[m[K
+[3.478s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K In function ‘[01m[Kdouble polygon_plugins::area()[m[K’:
+[3.478s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:15:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kside_length_[m[K’ was not declared in this scope
+[3.478s]    15 |         return [01;31m[Kside_length_[m[K * side_length_;
+[3.478s]       |                [01;31m[K^~~~~~~~~~~~[m[K
+[3.479s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K At global scope:
+[3.479s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:18:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprotected[m[K’
+[3.479s]    18 |     [01;31m[Kprotected[m[K:
+[3.479s]       |     [01;31m[K^~~~~~~~~[m[K
+[3.479s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:22:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kpolygon_base[m[K’ has not been declared
+[3.479s]    22 |   class Triangle : public [01;31m[Kpolygon_base[m[K::RegularPolygon
+[3.479s]       |                           [01;31m[K^~~~~~~~~~~~[m[K
+[3.479s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:22:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KRegularPolygon[m[K’
+[3.479s]    22 |   class Triangle : public polygon_base::[01;31m[KRegularPolygon[m[K
+[3.479s]       |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.479s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:24:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[3.480s]    24 |     [01;31m[Kpublic[m[K:
+[3.480s]       |     [01;31m[K^~~~~~[m[K
+[3.480s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:24:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[3.480s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:23:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.480s]    23 |   [01;36m[K{[m[K
+[3.480s]       |   [01;36m[K^[m[K
+[3.480s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:30:21:[m[K [01;31m[Kerror: [m[Kvirt-specifiers in ‘[01m[Karea[m[K’ not allowed outside a class definition
+[3.480s]    30 |       double area() [01;31m[Koverride[m[K
+[3.480s]       |                     [01;31m[K^~~~~~~~[m[K
+[3.482s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K In function ‘[01m[Kdouble area()[m[K’:
+[3.482s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:32:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kside_length_[m[K’ was not declared in this scope
+[3.482s]    32 |         return 0.5 * [01;31m[Kside_length_[m[K * getHeight();
+[3.482s]       |                      [01;31m[K^~~~~~~~~~~~[m[K
+[3.484s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:32:37:[m[K [01;31m[Kerror: [m[K‘[01m[KgetHeight[m[K’ was not declared in this scope
+[3.484s]    32 |         return 0.5 * side_length_ * [01;31m[KgetHeight[m[K();
+[3.484s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[3.486s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K In function ‘[01m[Kdouble getHeight()[m[K’:
+[3.486s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:37:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kside_length_[m[K’ was not declared in this scope
+[3.486s]    37 |         return sqrt(([01;31m[Kside_length_[m[K * side_length_) - ((side_length_ / 2) * (side_length_ / 2)));
+[3.486s]       |                      [01;31m[K^~~~~~~~~~~~[m[K
+[3.486s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K At global scope:
+[3.487s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:40:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprotected[m[K’
+[3.487s]    40 |     [01;31m[Kprotected[m[K:
+[3.487s]       |     [01;31m[K^~~~~~~~~[m[K
+[3.487s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:42:3:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.487s]    42 |   [01;31m[K}[m[K;
+[3.487s]       |   [01;31m[K^[m[K
+[3.487s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:43:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.487s]    43 | [01;31m[K}[m[K
+[3.487s]       | [01;31m[K^[m[K
+[3.807s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[3.808s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[3.808s]                  from [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:45[m[K:
+[3.808s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:47:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kpolygon_base[m[K’ does not name a type
+[3.808s]    47 | PLUGINLIB_EXPORT_CLASS(polygon_plugins::Square, [01;31m[Kpolygon_base[m[K::RegularPolygon)
+[3.808s]       |                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[3.812s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec0::ProxyExec0()[m[K’:
+[3.812s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:47:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope
+[3.812s]    47 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Square, polygon_base::RegularPolygon)
+[3.812s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.812s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:47:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<{anonymous}::ProxyExec0::_derived, <expression error> >(const char [24], const char [29])[m[K’
+[3.813s]    47 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Square, polygon_base::RegularPolygon)
+[3.813s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.819s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[3.819s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[3.819s]                  from [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:45[m[K:
+[3.819s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+[3.819s]   210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[3.820s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.820s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.820s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[3.820s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[3.820s]                  from [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:45[m[K:
+[3.820s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:47:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[3.820s]    47 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Square, polygon_base::RegularPolygon)
+[3.820s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.820s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K At global scope:
+[3.820s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:48:41:[m[K [01;31m[Kerror: [m[K‘[01m[KTriangle[m[K’ in namespace ‘[01m[Kpolygon_plugins[m[K’ does not name a type
+[3.820s]    48 | PLUGINLIB_EXPORT_CLASS(polygon_plugins::[01;31m[KTriangle[m[K, polygon_base::RegularPolygon)
+[3.820s]       |                                         [01;31m[K^~~~~~~~[m[K
+[3.821s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:48:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kpolygon_base[m[K’ does not name a type
+[3.821s]    48 | PLUGINLIB_EXPORT_CLASS(polygon_plugins::Triangle, [01;31m[Kpolygon_base[m[K::RegularPolygon)
+[3.821s]       |                                                   [01;31m[K^~~~~~~~~~~~[m[K
+[3.826s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:[m[K In constructor ‘[01m[K{anonymous}::ProxyExec1::ProxyExec1()[m[K’:
+[3.826s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:48:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_derived[m[K’ was not declared in this scope
+[3.826s]    48 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Triangle, polygon_base::RegularPolygon)
+[3.826s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.830s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:48:1:[m[K [01;31m[Kerror: [m[K‘[01m[K_base[m[K’ was not declared in this scope
+[3.830s]    48 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Triangle, polygon_base::RegularPolygon)
+[3.830s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.830s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:48:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KregisterPlugin<<expression error>, <expression error> >(const char [26], const char [29])[m[K’
+[3.830s]    48 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Triangle, polygon_base::RegularPolygon)
+[3.830s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.830s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[3.830s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[3.830s]                  from [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:45[m[K:
+[3.830s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Derived, class Base> void class_loader::impl::registerPlugin(const string&, const string&)[m[K’
+[3.831s]   210 | void [01;36m[KregisterPlugin[m[K(const std::string & class_name, const std::string & base_class_name)
+[3.831s]       |      [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.831s] [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:210:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.831s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:56[m[K,
+[3.831s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp:40[m[K,
+[3.831s]                  from [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:45[m[K:
+[3.831s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:48:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.831s]    48 | [01;31m[KPLUGINLIB_EXPORT_CLASS[m[K(polygon_plugins::Triangle, polygon_base::RegularPolygon)
+[3.831s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.831s] [01m[K/home/bfmadera/ros2_ws/src/polygon_plugins/src/polygon_plugins.cpp:48:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[3.942s] gmake[2]: *** [CMakeFiles/polygon_plugins.dir/build.make:76: CMakeFiles/polygon_plugins.dir/src/polygon_plugins.cpp.o] Error 1
+[3.942s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/polygon_plugins.dir/all] Error 2
+[3.943s] gmake: *** [Makefile:146: all] Error 2
+[3.946s] Invoked command in '/home/bfmadera/ros2_ws/build/polygon_plugins' returned '2': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/polygon_base:/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/more_interfaces:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/cpp_parameters:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/python_parameters:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel /usr/bin/cmake --build /home/bfmadera/ros2_ws/build/polygon_plugins -- -j8 -l8

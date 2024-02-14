@@ -1,0 +1,37 @@
+[0.107s] Invoking command in '/home/bfmadera/ros2_ws/build/polygon_base': /usr/bin/cmake --build /home/bfmadera/ros2_ws/build/polygon_base -- -j8 -l8
+[0.136s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.307s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.344s] -- Found polygon_base: 0.0.0 (/home/bfmadera/ros2_ws/install/polygon_base/share/polygon_base/cmake)
+[0.344s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.412s] Error parsing '/home/bfmadera/ros2_ws/src/polygon_base/package.xml':
+[0.464s] Traceback (most recent call last):
+[0.464s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.465s]     main()
+[0.465s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.465s]     raise e
+[0.465s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.465s]     package = parse_package_string(
+[0.465s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.465s]     pkg.validate(warnings=warnings)
+[0.465s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.466s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.466s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/bfmadera/ros2_ws/src/polygon_base/package.xml':
+[0.466s] The package "polygon_base" must not "build_depend" on a package with the same name as this package
+[0.466s] The package "polygon_base" must not "build_export_depend" on a package with the same name as this package
+[0.466s] The package "polygon_base" must not "exec_depend" on a package with the same name as this package
+[0.480s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.480s]   execute_process(/usr/bin/python3.10
+[0.481s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.481s]   /home/bfmadera/ros2_ws/src/polygon_base/package.xml
+[0.481s]   /home/bfmadera/ros2_ws/build/polygon_base/ament_cmake_core/package.cmake)
+[0.481s]   returned error code 1
+[0.481s] Call Stack (most recent call first):
+[0.481s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.481s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.481s]   CMakeLists.txt:16 (ament_lint_auto_find_test_dependencies)
+[0.481s] 
+[0.481s] [0m
+[0.481s] -- Configuring incomplete, errors occurred!
+[0.481s] See also "/home/bfmadera/ros2_ws/build/polygon_base/CMakeFiles/CMakeOutput.log".
+[0.485s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.487s] Invoked command in '/home/bfmadera/ros2_ws/build/polygon_base' returned '2': /usr/bin/cmake --build /home/bfmadera/ros2_ws/build/polygon_base -- -j8 -l8
