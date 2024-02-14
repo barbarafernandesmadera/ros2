@@ -1,0 +1,383 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000143] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000164] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000182] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000198] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000312] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000341] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000360] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000382] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000431] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000459] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000528] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000604] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000622] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000666] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000731] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000752] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000778] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000815] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000843] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000906] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000971] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000990] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001015] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001052] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001077] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001126] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001193] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/bfmadera/ros2_ws/install/tutorial_interfaces')])}
+[0.001221] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.099408] (-) TimerEvent: {}
+[0.104740] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.105309] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.106012] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bfmadera/ros2_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/bfmadera/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bfmadera'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bfmadera/ros2_ws/install/tutorial_interfaces/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bfmadera/catkin_ws/devel/lib'), ('HOME', '/home/bfmadera'), ('OLDPWD', '/home/bfmadera'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bfmadera/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bfmadera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ''), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bfmadera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bfmadera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin'), ('SESSION_MANAGER', 'local/bfmadera-340XAA-350XAA-550XAA:@/tmp/.ICE-unix/2033,unix/bfmadera-340XAA-350XAA-550XAA:/tmp/.ICE-unix/2033'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb914baf_6740_4c65_9759_e353572fcbbd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3PL0H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/bfmadera/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bfmadera/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel')]), 'shell': False}
+[0.137679] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199530] (-) TimerEvent: {}
+[0.299789] (-) TimerEvent: {}
+[0.322055] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400025] (-) TimerEvent: {}
+[0.500607] (-) TimerEvent: {}
+[0.501139] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.505488] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.513894] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.527285] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.545660] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600725] (-) TimerEvent: {}
+[0.611055] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.613319] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700866] (-) TimerEvent: {}
+[0.789608] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800978] (-) TimerEvent: {}
+[0.901250] (-) TimerEvent: {}
+[0.969614] (cpp_pubsub) StdoutLine: {'line': b'-- Found tutorial_interfaces: 0.0.0 (/home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)\n'}
+[1.001369] (-) TimerEvent: {}
+[1.101648] (-) TimerEvent: {}
+[1.181270] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.201925] (-) TimerEvent: {}
+[1.302373] (-) TimerEvent: {}
+[1.303899] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.310110] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/bfmadera/ros2_ws/build/cpp_pubsub\n'}
+[1.402548] (-) TimerEvent: {}
+[1.405250] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.428177] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.502757] (-) TimerEvent: {}
+[1.603413] (-) TimerEvent: {}
+[1.651428] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.651706] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.703574] (-) TimerEvent: {}
+[1.804221] (-) TimerEvent: {}
+[1.904998] (-) TimerEvent: {}
+[2.005736] (-) TimerEvent: {}
+[2.106434] (-) TimerEvent: {}
+[2.207190] (-) TimerEvent: {}
+[2.307852] (-) TimerEvent: {}
+[2.408617] (-) TimerEvent: {}
+[2.509390] (-) TimerEvent: {}
+[2.610519] (-) TimerEvent: {}
+[2.711177] (-) TimerEvent: {}
+[2.811870] (-) TimerEvent: {}
+[2.912575] (-) TimerEvent: {}
+[3.013428] (-) TimerEvent: {}
+[3.114339] (-) TimerEvent: {}
+[3.215157] (-) TimerEvent: {}
+[3.315590] (-) TimerEvent: {}
+[3.416549] (-) TimerEvent: {}
+[3.517402] (-) TimerEvent: {}
+[3.617876] (-) TimerEvent: {}
+[3.718336] (-) TimerEvent: {}
+[3.819405] (-) TimerEvent: {}
+[3.919778] (-) TimerEvent: {}
+[4.020498] (-) TimerEvent: {}
+[4.121084] (-) TimerEvent: {}
+[4.221813] (-) TimerEvent: {}
+[4.322841] (-) TimerEvent: {}
+[4.423733] (-) TimerEvent: {}
+[4.524418] (-) TimerEvent: {}
+[4.625121] (-) TimerEvent: {}
+[4.725845] (-) TimerEvent: {}
+[4.826540] (-) TimerEvent: {}
+[4.926876] (-) TimerEvent: {}
+[5.027396] (-) TimerEvent: {}
+[5.128131] (-) TimerEvent: {}
+[5.229000] (-) TimerEvent: {}
+[5.329856] (-) TimerEvent: {}
+[5.430580] (-) TimerEvent: {}
+[5.531070] (-) TimerEvent: {}
+[5.631686] (-) TimerEvent: {}
+[5.732002] (-) TimerEvent: {}
+[5.832278] (-) TimerEvent: {}
+[5.932565] (-) TimerEvent: {}
+[6.032852] (-) TimerEvent: {}
+[6.133141] (-) TimerEvent: {}
+[6.233428] (-) TimerEvent: {}
+[6.333738] (-) TimerEvent: {}
+[6.433992] (-) TimerEvent: {}
+[6.534275] (-) TimerEvent: {}
+[6.634580] (-) TimerEvent: {}
+[6.734882] (-) TimerEvent: {}
+[6.835302] (-) TimerEvent: {}
+[6.935913] (-) TimerEvent: {}
+[7.036256] (-) TimerEvent: {}
+[7.136609] (-) TimerEvent: {}
+[7.236918] (-) TimerEvent: {}
+[7.337239] (-) TimerEvent: {}
+[7.437550] (-) TimerEvent: {}
+[7.537842] (-) TimerEvent: {}
+[7.638136] (-) TimerEvent: {}
+[7.738420] (-) TimerEvent: {}
+[7.838751] (-) TimerEvent: {}
+[7.939053] (-) TimerEvent: {}
+[8.039407] (-) TimerEvent: {}
+[8.139749] (-) TimerEvent: {}
+[8.240093] (-) TimerEvent: {}
+[8.340392] (-) TimerEvent: {}
+[8.440699] (-) TimerEvent: {}
+[8.540992] (-) TimerEvent: {}
+[8.641534] (-) TimerEvent: {}
+[8.741837] (-) TimerEvent: {}
+[8.842131] (-) TimerEvent: {}
+[8.942408] (-) TimerEvent: {}
+[9.042712] (-) TimerEvent: {}
+[9.143025] (-) TimerEvent: {}
+[9.243340] (-) TimerEvent: {}
+[9.343649] (-) TimerEvent: {}
+[9.443921] (-) TimerEvent: {}
+[9.544268] (-) TimerEvent: {}
+[9.644582] (-) TimerEvent: {}
+[9.744885] (-) TimerEvent: {}
+[9.845207] (-) TimerEvent: {}
+[9.945508] (-) TimerEvent: {}
+[10.045809] (-) TimerEvent: {}
+[10.146102] (-) TimerEvent: {}
+[10.246417] (-) TimerEvent: {}
+[10.346730] (-) TimerEvent: {}
+[10.447049] (-) TimerEvent: {}
+[10.547387] (-) TimerEvent: {}
+[10.647713] (-) TimerEvent: {}
+[10.748016] (-) TimerEvent: {}
+[10.848301] (-) TimerEvent: {}
+[10.948592] (-) TimerEvent: {}
+[11.048901] (-) TimerEvent: {}
+[11.149265] (-) TimerEvent: {}
+[11.250183] (-) TimerEvent: {}
+[11.350564] (-) TimerEvent: {}
+[11.450917] (-) TimerEvent: {}
+[11.551241] (-) TimerEvent: {}
+[11.651576] (-) TimerEvent: {}
+[11.751932] (-) TimerEvent: {}
+[11.852273] (-) TimerEvent: {}
+[11.891146] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[11.952407] (-) TimerEvent: {}
+[12.052709] (-) TimerEvent: {}
+[12.152989] (-) TimerEvent: {}
+[12.253288] (-) TimerEvent: {}
+[12.353719] (-) TimerEvent: {}
+[12.453989] (-) TimerEvent: {}
+[12.554230] (-) TimerEvent: {}
+[12.654502] (-) TimerEvent: {}
+[12.754806] (-) TimerEvent: {}
+[12.855105] (-) TimerEvent: {}
+[12.955374] (-) TimerEvent: {}
+[13.055643] (-) TimerEvent: {}
+[13.155929] (-) TimerEvent: {}
+[13.256209] (-) TimerEvent: {}
+[13.356449] (-) TimerEvent: {}
+[13.456688] (-) TimerEvent: {}
+[13.556979] (-) TimerEvent: {}
+[13.657299] (-) TimerEvent: {}
+[13.757680] (-) TimerEvent: {}
+[13.858095] (-) TimerEvent: {}
+[13.958377] (-) TimerEvent: {}
+[14.058667] (-) TimerEvent: {}
+[14.158910] (-) TimerEvent: {}
+[14.259155] (-) TimerEvent: {}
+[14.359401] (-) TimerEvent: {}
+[14.459655] (-) TimerEvent: {}
+[14.559934] (-) TimerEvent: {}
+[14.660397] (-) TimerEvent: {}
+[14.761156] (-) TimerEvent: {}
+[14.861811] (-) TimerEvent: {}
+[14.962180] (-) TimerEvent: {}
+[15.062472] (-) TimerEvent: {}
+[15.162747] (-) TimerEvent: {}
+[15.263021] (-) TimerEvent: {}
+[15.288816] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[15.363155] (-) TimerEvent: {}
+[15.463440] (-) TimerEvent: {}
+[15.528573] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[15.563565] (-) TimerEvent: {}
+[15.663866] (-) TimerEvent: {}
+[15.764276] (-) TimerEvent: {}
+[15.864837] (-) TimerEvent: {}
+[15.965111] (-) TimerEvent: {}
+[16.065394] (-) TimerEvent: {}
+[16.086821] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[16.102111] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[16.165539] (-) TimerEvent: {}
+[16.202905] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[16.238363] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bfmadera/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/bfmadera/ros2_ws/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bfmadera'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bfmadera/ros2_ws/install/tutorial_interfaces/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bfmadera/catkin_ws/devel/lib'), ('HOME', '/home/bfmadera'), ('OLDPWD', '/home/bfmadera'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bfmadera/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bfmadera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ''), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bfmadera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bfmadera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin'), ('SESSION_MANAGER', 'local/bfmadera-340XAA-350XAA-550XAA:@/tmp/.ICE-unix/2033,unix/bfmadera-340XAA-350XAA-550XAA:/tmp/.ICE-unix/2033'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb914baf_6740_4c65_9759_e353572fcbbd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3PL0H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/cpp_srvcli:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/bfmadera/ros2_ws/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bfmadera/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel')]), 'shell': False}
+[16.252915] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.265815] (-) TimerEvent: {}
+[16.328889] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[16.337312] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/bfmadera/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[16.366290] (-) TimerEvent: {}
+[16.397014] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[16.413495] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/bfmadera/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[16.414275] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[16.414962] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[16.427107] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[16.427828] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[16.428536] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[16.429127] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[16.429843] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[16.430832] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[16.431202] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[16.431502] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[16.432103] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[16.433103] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[16.433993] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[16.434418] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[16.434727] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[16.440698] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[16.466485] (-) TimerEvent: {}
+[16.567285] (-) TimerEvent: {}
+[16.668119] (-) TimerEvent: {}
+[16.768857] (-) TimerEvent: {}
+[16.869576] (-) TimerEvent: {}
+[16.970325] (-) TimerEvent: {}
+[17.071155] (-) TimerEvent: {}
+[17.171821] (-) TimerEvent: {}
+[17.272583] (-) TimerEvent: {}
+[17.373342] (-) TimerEvent: {}
+[17.474200] (-) TimerEvent: {}
+[17.574987] (-) TimerEvent: {}
+[17.675741] (-) TimerEvent: {}
+[17.776487] (-) TimerEvent: {}
+[17.877271] (-) TimerEvent: {}
+[17.977871] (-) TimerEvent: {}
+[18.078676] (-) TimerEvent: {}
+[18.179512] (-) TimerEvent: {}
+[18.280340] (-) TimerEvent: {}
+[18.381208] (-) TimerEvent: {}
+[18.481902] (-) TimerEvent: {}
+[18.582690] (-) TimerEvent: {}
+[18.683261] (-) TimerEvent: {}
+[18.783597] (-) TimerEvent: {}
+[18.884004] (-) TimerEvent: {}
+[18.984572] (-) TimerEvent: {}
+[19.084943] (-) TimerEvent: {}
+[19.185652] (-) TimerEvent: {}
+[19.286343] (-) TimerEvent: {}
+[19.386800] (-) TimerEvent: {}
+[19.487590] (-) TimerEvent: {}
+[19.587852] (-) TimerEvent: {}
+[19.688126] (-) TimerEvent: {}
+[19.788469] (-) TimerEvent: {}
+[19.894641] (-) TimerEvent: {}
+[19.994949] (-) TimerEvent: {}
+[20.095300] (-) TimerEvent: {}
+[20.195605] (-) TimerEvent: {}
+[20.295924] (-) TimerEvent: {}
+[20.396661] (-) TimerEvent: {}
+[20.497303] (-) TimerEvent: {}
+[20.598017] (-) TimerEvent: {}
+[20.698965] (-) TimerEvent: {}
+[20.799349] (-) TimerEvent: {}
+[20.900118] (-) TimerEvent: {}
+[21.000851] (-) TimerEvent: {}
+[21.123582] (-) TimerEvent: {}
+[21.223905] (-) TimerEvent: {}
+[21.324178] (-) TimerEvent: {}
+[21.424519] (-) TimerEvent: {}
+[21.524782] (-) TimerEvent: {}
+[21.625055] (-) TimerEvent: {}
+[21.725418] (-) TimerEvent: {}
+[21.825810] (-) TimerEvent: {}
+[21.926058] (-) TimerEvent: {}
+[22.026356] (-) TimerEvent: {}
+[22.126822] (-) TimerEvent: {}
+[22.227418] (-) TimerEvent: {}
+[22.327924] (-) TimerEvent: {}
+[22.428594] (-) TimerEvent: {}
+[22.529211] (-) TimerEvent: {}
+[22.629508] (-) TimerEvent: {}
+[22.729881] (-) TimerEvent: {}
+[22.830423] (-) TimerEvent: {}
+[22.930734] (-) TimerEvent: {}
+[23.031288] (-) TimerEvent: {}
+[23.131960] (-) TimerEvent: {}
+[23.232349] (-) TimerEvent: {}
+[23.332940] (-) TimerEvent: {}
+[23.433278] (-) TimerEvent: {}
+[23.533724] (-) TimerEvent: {}
+[23.634041] (-) TimerEvent: {}
+[23.734518] (-) TimerEvent: {}
+[23.834904] (-) TimerEvent: {}
+[23.935331] (-) TimerEvent: {}
+[24.036037] (-) TimerEvent: {}
+[24.136643] (-) TimerEvent: {}
+[24.237034] (-) TimerEvent: {}
+[24.337312] (-) TimerEvent: {}
+[24.437553] (-) TimerEvent: {}
+[24.537852] (-) TimerEvent: {}
+[24.638342] (-) TimerEvent: {}
+[24.739077] (-) TimerEvent: {}
+[24.839696] (-) TimerEvent: {}
+[24.940275] (-) TimerEvent: {}
+[25.040973] (-) TimerEvent: {}
+[25.141747] (-) TimerEvent: {}
+[25.242508] (-) TimerEvent: {}
+[25.343208] (-) TimerEvent: {}
+[25.443770] (-) TimerEvent: {}
+[25.544040] (-) TimerEvent: {}
+[25.644331] (-) TimerEvent: {}
+[25.744740] (-) TimerEvent: {}
+[25.845449] (-) TimerEvent: {}
+[25.946120] (-) TimerEvent: {}
+[26.054271] (-) TimerEvent: {}
+[26.155009] (-) TimerEvent: {}
+[26.255720] (-) TimerEvent: {}
+[26.356561] (-) TimerEvent: {}
+[26.469501] (-) TimerEvent: {}
+[26.569866] (-) TimerEvent: {}
+[26.670805] (-) TimerEvent: {}
+[26.771555] (-) TimerEvent: {}
+[26.871924] (-) TimerEvent: {}
+[26.972609] (-) TimerEvent: {}
+[27.073368] (-) TimerEvent: {}
+[27.174250] (-) TimerEvent: {}
+[27.275059] (-) TimerEvent: {}
+[27.375783] (-) TimerEvent: {}
+[27.476582] (-) TimerEvent: {}
+[27.577287] (-) TimerEvent: {}
+[27.678090] (-) TimerEvent: {}
+[27.778857] (-) TimerEvent: {}
+[27.879734] (-) TimerEvent: {}
+[27.980426] (-) TimerEvent: {}
+[28.081050] (-) TimerEvent: {}
+[28.181373] (-) TimerEvent: {}
+[28.281915] (-) TimerEvent: {}
+[28.382703] (-) TimerEvent: {}
+[28.483420] (-) TimerEvent: {}
+[28.584003] (-) TimerEvent: {}
+[28.684303] (-) TimerEvent: {}
+[28.784681] (-) TimerEvent: {}
+[28.885446] (-) TimerEvent: {}
+[28.986074] (-) TimerEvent: {}
+[29.086800] (-) TimerEvent: {}
+[29.187386] (-) TimerEvent: {}
+[29.287851] (-) TimerEvent: {}
+[29.388351] (-) TimerEvent: {}
+[29.488620] (-) TimerEvent: {}
+[29.588997] (-) TimerEvent: {}
+[29.689753] (-) TimerEvent: {}
+[29.790467] (-) TimerEvent: {}
+[29.891128] (-) TimerEvent: {}
+[29.992884] (-) TimerEvent: {}
+[30.093191] (-) TimerEvent: {}
+[30.193581] (-) TimerEvent: {}
+[30.294312] (-) TimerEvent: {}
+[30.395124] (-) TimerEvent: {}
+[30.475328] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[30.476052] (-) EventReactorShutdown: {}

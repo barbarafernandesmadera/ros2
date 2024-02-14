@@ -1,0 +1,349 @@
+[0.000000] (-) TimerEvent: {}
+[0.000854] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000892] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000912] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000932] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000979] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001058] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001077] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001097] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001140] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001165] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001186] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001309] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001328] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001397] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001414] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001441] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001477] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001501] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001581] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001604] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001622] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001642] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001668] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001701] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001782] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001800] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001863] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001882] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.001916] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.100049] (-) TimerEvent: {}
+[0.151442] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.189380] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[0.189720] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bfmadera/ros2_ws/build/tutorial_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/bfmadera/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bfmadera'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bfmadera/catkin_ws/devel/lib'), ('HOME', '/home/bfmadera'), ('OLDPWD', '/home/bfmadera'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bfmadera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ''), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bfmadera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bfmadera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin'), ('SESSION_MANAGER', 'local/bfmadera-340XAA-350XAA-550XAA:@/tmp/.ICE-unix/2033,unix/bfmadera-340XAA-350XAA-550XAA:/tmp/.ICE-unix/2033'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb914baf_6740_4c65_9759_e353572fcbbd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3PL0H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/bfmadera/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/bfmadera/catkin_ws/devel')]), 'shell': False}
+[0.200200] (-) TimerEvent: {}
+[0.300775] (-) TimerEvent: {}
+[0.401381] (-) TimerEvent: {}
+[0.501692] (-) TimerEvent: {}
+[0.602169] (-) TimerEvent: {}
+[0.702645] (-) TimerEvent: {}
+[0.803352] (-) TimerEvent: {}
+[0.904108] (-) TimerEvent: {}
+[1.004765] (-) TimerEvent: {}
+[1.105282] (-) TimerEvent: {}
+[1.205792] (-) TimerEvent: {}
+[1.306595] (-) TimerEvent: {}
+[1.407401] (-) TimerEvent: {}
+[1.508197] (-) TimerEvent: {}
+[1.609024] (-) TimerEvent: {}
+[1.656423] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.709234] (-) TimerEvent: {}
+[1.809553] (-) TimerEvent: {}
+[1.909834] (-) TimerEvent: {}
+[2.010308] (-) TimerEvent: {}
+[2.110745] (-) TimerEvent: {}
+[2.211096] (-) TimerEvent: {}
+[2.311695] (-) TimerEvent: {}
+[2.322492] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.411867] (-) TimerEvent: {}
+[2.512334] (-) TimerEvent: {}
+[2.612781] (-) TimerEvent: {}
+[2.689771] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.713008] (-) TimerEvent: {}
+[2.719923] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.781667] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.813261] (-) TimerEvent: {}
+[2.871047] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.913492] (-) TimerEvent: {}
+[2.985873] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.013722] (-) TimerEvent: {}
+[3.114492] (-) TimerEvent: {}
+[3.214896] (-) TimerEvent: {}
+[3.315488] (-) TimerEvent: {}
+[3.354945] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.415752] (-) TimerEvent: {}
+[3.516374] (-) TimerEvent: {}
+[3.616644] (-) TimerEvent: {}
+[3.717176] (-) TimerEvent: {}
+[3.817574] (-) TimerEvent: {}
+[3.847608] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.917715] (-) TimerEvent: {}
+[4.018176] (-) TimerEvent: {}
+[4.118800] (-) TimerEvent: {}
+[4.219073] (-) TimerEvent: {}
+[4.319340] (-) TimerEvent: {}
+[4.399747] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.419446] (-) TimerEvent: {}
+[4.519680] (-) TimerEvent: {}
+[4.576468] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.620006] (-) TimerEvent: {}
+[4.628170] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.720405] (-) TimerEvent: {}
+[4.757160] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.757349] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.757468] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.814559] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.820569] (-) TimerEvent: {}
+[4.921339] (-) TimerEvent: {}
+[5.014202] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.019885] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.021464] (-) TimerEvent: {}
+[5.026129] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.121748] (-) TimerEvent: {}
+[5.222417] (-) TimerEvent: {}
+[5.323034] (-) TimerEvent: {}
+[5.423747] (-) TimerEvent: {}
+[5.524599] (-) TimerEvent: {}
+[5.625472] (-) TimerEvent: {}
+[5.726369] (-) TimerEvent: {}
+[5.780949] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.785439] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bfmadera/ros2_ws/build/tutorial_interfaces\n'}
+[5.826523] (-) TimerEvent: {}
+[5.828125] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] Built target tutorial_interfaces__cpp\n'}
+[5.841764] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_c\x1b[0m\n'}
+[5.869646] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.871229] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[5.871599] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.926989] (-) TimerEvent: {}
+[6.027866] (-) TimerEvent: {}
+[6.128585] (-) TimerEvent: {}
+[6.216031] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[6.228700] (-) TimerEvent: {}
+[6.229393] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[6.250766] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[6.251151] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.262134] (tutorial_interfaces) StdoutLine: {'line': b'[ 23%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[6.262999] (tutorial_interfaces) StdoutLine: {'line': b'[ 34%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.266041] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[6.272222] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.280338] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.280593] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.292564] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.316170] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces\n'}
+[6.328794] (-) TimerEvent: {}
+[6.340467] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__py\n'}
+[6.353372] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_generator_py\x1b[0m\n'}
+[6.428927] (-) TimerEvent: {}
+[6.472206] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[6.484166] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.484434] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.484555] (tutorial_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.499378] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.499704] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.499882] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.529052] (-) TimerEvent: {}
+[6.629366] (-) TimerEvent: {}
+[6.637207] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[6.639280] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[6.639857] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[6.640594] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[6.667523] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[6.670715] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[6.713800] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[6.728838] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[6.729425] (-) TimerEvent: {}
+[6.829655] (-) TimerEvent: {}
+[6.855615] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[6.866722] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bfmadera/ros2_ws/build/tutorial_interfaces'], 'cwd': '/home/bfmadera/ros2_ws/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bfmadera'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bfmadera/catkin_ws/devel/lib'), ('HOME', '/home/bfmadera'), ('OLDPWD', '/home/bfmadera'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2058'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bfmadera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ''), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bfmadera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bfmadera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin'), ('SESSION_MANAGER', 'local/bfmadera-340XAA-350XAA-550XAA:@/tmp/.ICE-unix/2033,unix/bfmadera-340XAA-350XAA-550XAA:/tmp/.ICE-unix/2033'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bb914baf_6740_4c65_9759_e353572fcbbd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3PL0H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/bfmadera/ros2_ws/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/bfmadera/catkin_ws/devel')]), 'shell': False}
+[6.876598] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.877354] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[6.877693] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[6.877859] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[6.878005] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.878088] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h\n'}
+[6.878254] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[6.878361] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[6.878552] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[6.878716] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[6.878863] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[6.878935] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c\n'}
+[6.879015] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h\n'}
+[6.879113] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h\n'}
+[6.879192] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h\n'}
+[6.879346] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[6.879440] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[6.879509] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[6.879576] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[6.879654] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[6.879728] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[6.879799] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[6.879868] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h\n'}
+[6.907306] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[6.907673] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[6.924137] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[6.925178] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[6.925642] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[6.926434] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.926997] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[6.927399] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[6.927698] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[6.927982] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[6.928471] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[6.928761] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[6.929169] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[6.929603] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[6.930442] (-) TimerEvent: {}
+[6.931196] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[6.931736] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[6.932238] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp\n'}
+[6.932787] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[6.933237] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[6.933555] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp\n'}
+[6.933868] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp\n'}
+[6.934144] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[6.934419] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[6.934798] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp\n'}
+[6.935081] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[6.935356] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[6.935784] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[6.936063] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[6.936335] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[6.936795] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[6.937305] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[6.937961] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[6.938420] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.938770] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[6.939074] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.939345] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[6.939624] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.940054] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[6.940346] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[6.940614] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.940921] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[6.941212] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.941666] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[6.942262] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[6.942875] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.943945] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[6.944365] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[6.944660] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[6.944944] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c\n'}
+[6.945220] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[6.945493] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[6.945761] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[6.946030] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[6.946332] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[6.946648] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[6.946929] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[6.947199] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[6.947465] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[6.947757] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[6.948025] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[6.948291] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.948557] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[6.948820] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.949086] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[6.949348] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[6.949611] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[6.949909] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.006052] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.009036] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.010110] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[7.010799] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[7.012185] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[7.012891] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.013583] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.014105] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.014576] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.015288] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces\n'}
+[7.015800] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.016454] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.017182] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.017662] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.018077] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg\n'}
+[7.018387] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num.py\n'}
+[7.019000] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[7.019284] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/__init__.py\n'}
+[7.019559] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere_s.c\n'}
+[7.019831] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg/_sphere.py\n'}
+[7.020101] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[7.020372] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py\n'}
+[7.020645] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.020916] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv\n'}
+[7.021191] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[7.021466] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/__init__.py\n'}
+[7.021784] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[7.022062] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.030656] (-) TimerEvent: {}
+[7.129597] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces'...\n"}
+[7.129796] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/__init__.py'...\n"}
+[7.129903] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/msg'...\n"}
+[7.129990] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/srv'...\n"}
+[7.130714] (-) TimerEvent: {}
+[7.136219] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.137050] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.137888] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.138667] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[7.139150] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[7.139263] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl\n'}
+[7.139438] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[7.139558] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[7.139764] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg\n'}
+[7.139981] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[7.140209] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[7.140327] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[7.140431] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[7.140545] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[7.140619] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[7.140690] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.140801] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[7.140872] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[7.140970] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[7.141096] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[7.141184] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[7.141254] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[7.141365] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[7.141720] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[7.142457] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.142583] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.142836] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.143088] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.143292] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.143430] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.143517] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.143669] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.143797] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.143998] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.144149] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.144299] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.144423] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.144682] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.144845] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.144997] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.145106] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.145200] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.145310] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.145420] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.145543] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.145635] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.145715] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.145776] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.145838] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[7.145899] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[7.145961] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[7.148052] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[7.230983] (-) TimerEvent: {}
+[7.332011] (-) TimerEvent: {}
+[7.432560] (-) TimerEvent: {}
+[7.533030] (-) TimerEvent: {}
+[7.633920] (-) TimerEvent: {}
+[7.734853] (-) TimerEvent: {}
+[7.835677] (-) TimerEvent: {}
+[7.943866] (-) TimerEvent: {}
+[8.044725] (-) TimerEvent: {}
+[8.145408] (-) TimerEvent: {}
+[8.245719] (-) TimerEvent: {}
+[8.346376] (-) TimerEvent: {}
+[8.438403] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[8.438744] (-) EventReactorShutdown: {}
