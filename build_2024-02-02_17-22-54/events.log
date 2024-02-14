@@ -1,0 +1,291 @@
+[0.000000] (-) TimerEvent: {}
+[0.000110] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.000138] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000159] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000177] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000194] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000212] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000425] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000444] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000573] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000592] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000657] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000707] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000910] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000941] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000972] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001009] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001031] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.001115] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.001183] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.001207] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.001228] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001254] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001286] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001366] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001385] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001411] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001444] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001470] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001545] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001563] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001605] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001632] (polygon_base) JobQueued: {'identifier': 'polygon_base', 'dependencies': OrderedDict()}
+[0.001708] (polygon_plugins) JobQueued: {'identifier': 'polygon_plugins', 'dependencies': OrderedDict([('polygon_base', '/home/bfmadera/ros2_ws/install/polygon_base')])}
+[0.001732] (polygon_base) JobStarted: {'identifier': 'polygon_base'}
+[0.099670] (-) TimerEvent: {}
+[0.200404] (-) TimerEvent: {}
+[0.301206] (-) TimerEvent: {}
+[0.401861] (-) TimerEvent: {}
+[0.487863] (polygon_base) JobProgress: {'identifier': 'polygon_base', 'progress': 'cmake'}
+[0.488063] (polygon_base) Command: {'cmd': ['/usr/bin/cmake', '/home/bfmadera/ros2_ws/src/polygon_base', '-DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/polygon_base'], 'cwd': '/home/bfmadera/ros2_ws/build/polygon_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bfmadera'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bfmadera/catkin_ws/devel/lib'), ('HOME', '/home/bfmadera'), ('OLDPWD', '/home/bfmadera'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '15671'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bfmadera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ''), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bfmadera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bfmadera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin'), ('SESSION_MANAGER', 'local/bfmadera-340XAA-350XAA-550XAA:@/tmp/.ICE-unix/2015,unix/bfmadera-340XAA-350XAA-550XAA:/tmp/.ICE-unix/2015'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/13d308ea_f0d9_45e9_85e9_8bb44c1736db'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ZEITGEIST_DATA_PATH', '/home/bfmadera/.local/share/zeitgeist'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YDI3H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/bfmadera/ros2_ws/build/polygon_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/bfmadera/catkin_ws/devel')]), 'shell': False}
+[0.502070] (-) TimerEvent: {}
+[0.633231] (-) TimerEvent: {}
+[0.733997] (-) TimerEvent: {}
+[0.834691] (-) TimerEvent: {}
+[0.935398] (-) TimerEvent: {}
+[1.036101] (-) TimerEvent: {}
+[1.136846] (-) TimerEvent: {}
+[1.237563] (-) TimerEvent: {}
+[1.338227] (-) TimerEvent: {}
+[1.438883] (-) TimerEvent: {}
+[1.539688] (-) TimerEvent: {}
+[1.640369] (-) TimerEvent: {}
+[1.741262] (-) TimerEvent: {}
+[1.842032] (-) TimerEvent: {}
+[1.942687] (-) TimerEvent: {}
+[2.043365] (-) TimerEvent: {}
+[2.144353] (-) TimerEvent: {}
+[2.245181] (-) TimerEvent: {}
+[2.345848] (-) TimerEvent: {}
+[2.446521] (-) TimerEvent: {}
+[2.547214] (-) TimerEvent: {}
+[2.648009] (-) TimerEvent: {}
+[2.748823] (-) TimerEvent: {}
+[2.849531] (-) TimerEvent: {}
+[2.950492] (-) TimerEvent: {}
+[3.051191] (-) TimerEvent: {}
+[3.151854] (-) TimerEvent: {}
+[3.252605] (-) TimerEvent: {}
+[3.353011] (-) TimerEvent: {}
+[3.453720] (-) TimerEvent: {}
+[3.554436] (-) TimerEvent: {}
+[3.655185] (-) TimerEvent: {}
+[3.755896] (-) TimerEvent: {}
+[3.856660] (-) TimerEvent: {}
+[3.957407] (-) TimerEvent: {}
+[4.058160] (-) TimerEvent: {}
+[4.158765] (-) TimerEvent: {}
+[4.259373] (-) TimerEvent: {}
+[4.360563] (-) TimerEvent: {}
+[4.461433] (-) TimerEvent: {}
+[4.562114] (-) TimerEvent: {}
+[4.662433] (-) TimerEvent: {}
+[4.763036] (-) TimerEvent: {}
+[4.863730] (-) TimerEvent: {}
+[4.964407] (-) TimerEvent: {}
+[5.065105] (-) TimerEvent: {}
+[5.165875] (-) TimerEvent: {}
+[5.266562] (-) TimerEvent: {}
+[5.367245] (-) TimerEvent: {}
+[5.467931] (-) TimerEvent: {}
+[5.568639] (-) TimerEvent: {}
+[5.669332] (-) TimerEvent: {}
+[5.770071] (-) TimerEvent: {}
+[5.870770] (-) TimerEvent: {}
+[5.971433] (-) TimerEvent: {}
+[6.072130] (-) TimerEvent: {}
+[6.172901] (-) TimerEvent: {}
+[6.273747] (-) TimerEvent: {}
+[6.374410] (-) TimerEvent: {}
+[6.475074] (-) TimerEvent: {}
+[6.575933] (-) TimerEvent: {}
+[6.676658] (-) TimerEvent: {}
+[6.777374] (-) TimerEvent: {}
+[6.878043] (-) TimerEvent: {}
+[6.978781] (-) TimerEvent: {}
+[7.079509] (-) TimerEvent: {}
+[7.180239] (-) TimerEvent: {}
+[7.280935] (-) TimerEvent: {}
+[7.381596] (-) TimerEvent: {}
+[7.482187] (-) TimerEvent: {}
+[7.582606] (-) TimerEvent: {}
+[7.682980] (-) TimerEvent: {}
+[7.783666] (-) TimerEvent: {}
+[7.884447] (-) TimerEvent: {}
+[7.985269] (-) TimerEvent: {}
+[8.085967] (-) TimerEvent: {}
+[8.186667] (-) TimerEvent: {}
+[8.287288] (-) TimerEvent: {}
+[8.348904] (polygon_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[8.387539] (-) TimerEvent: {}
+[8.488257] (-) TimerEvent: {}
+[8.588888] (-) TimerEvent: {}
+[8.689238] (-) TimerEvent: {}
+[8.789930] (-) TimerEvent: {}
+[8.890642] (-) TimerEvent: {}
+[8.991355] (-) TimerEvent: {}
+[9.092307] (-) TimerEvent: {}
+[9.192989] (-) TimerEvent: {}
+[9.293673] (-) TimerEvent: {}
+[9.394353] (-) TimerEvent: {}
+[9.495059] (-) TimerEvent: {}
+[9.595831] (-) TimerEvent: {}
+[9.696506] (-) TimerEvent: {}
+[9.797407] (-) TimerEvent: {}
+[9.898084] (-) TimerEvent: {}
+[9.998790] (-) TimerEvent: {}
+[10.099487] (-) TimerEvent: {}
+[10.200232] (-) TimerEvent: {}
+[10.301056] (-) TimerEvent: {}
+[10.401778] (-) TimerEvent: {}
+[10.502474] (-) TimerEvent: {}
+[10.603317] (-) TimerEvent: {}
+[10.704097] (-) TimerEvent: {}
+[10.804978] (-) TimerEvent: {}
+[10.905746] (-) TimerEvent: {}
+[11.006450] (-) TimerEvent: {}
+[11.107164] (-) TimerEvent: {}
+[11.207841] (-) TimerEvent: {}
+[11.308679] (-) TimerEvent: {}
+[11.409463] (-) TimerEvent: {}
+[11.510334] (-) TimerEvent: {}
+[11.611140] (-) TimerEvent: {}
+[11.711772] (-) TimerEvent: {}
+[11.812110] (-) TimerEvent: {}
+[11.889063] (polygon_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[11.912249] (-) TimerEvent: {}
+[12.012765] (-) TimerEvent: {}
+[12.113517] (-) TimerEvent: {}
+[12.214316] (-) TimerEvent: {}
+[12.315045] (-) TimerEvent: {}
+[12.415763] (-) TimerEvent: {}
+[12.516531] (-) TimerEvent: {}
+[12.607147] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.616793] (-) TimerEvent: {}
+[12.717496] (-) TimerEvent: {}
+[12.818210] (-) TimerEvent: {}
+[12.918938] (-) TimerEvent: {}
+[13.019605] (-) TimerEvent: {}
+[13.120294] (-) TimerEvent: {}
+[13.220989] (-) TimerEvent: {}
+[13.321709] (-) TimerEvent: {}
+[13.380969] (polygon_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.392076] (polygon_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.398351] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.421908] (-) TimerEvent: {}
+[13.444467] (polygon_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.522367] (-) TimerEvent: {}
+[13.579767] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.622261] (-) TimerEvent: {}
+[13.722591] (-) TimerEvent: {}
+[13.823104] (-) TimerEvent: {}
+[13.923798] (-) TimerEvent: {}
+[13.957849] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.967229] (polygon_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.967671] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.968367] (polygon_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.023909] (-) TimerEvent: {}
+[14.124487] (-) TimerEvent: {}
+[14.225254] (-) TimerEvent: {}
+[14.326015] (-) TimerEvent: {}
+[14.426761] (-) TimerEvent: {}
+[14.527681] (-) TimerEvent: {}
+[14.628455] (-) TimerEvent: {}
+[14.632958] (polygon_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[14.728758] (-) TimerEvent: {}
+[14.829687] (-) TimerEvent: {}
+[14.930470] (-) TimerEvent: {}
+[15.031194] (-) TimerEvent: {}
+[15.131818] (-) TimerEvent: {}
+[15.232305] (-) TimerEvent: {}
+[15.333158] (-) TimerEvent: {}
+[15.433773] (-) TimerEvent: {}
+[15.534157] (-) TimerEvent: {}
+[15.568995] (polygon_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[15.634369] (-) TimerEvent: {}
+[15.735189] (-) TimerEvent: {}
+[15.835880] (-) TimerEvent: {}
+[15.936142] (-) TimerEvent: {}
+[16.036444] (-) TimerEvent: {}
+[16.136909] (-) TimerEvent: {}
+[16.237766] (-) TimerEvent: {}
+[16.338512] (-) TimerEvent: {}
+[16.439402] (-) TimerEvent: {}
+[16.540283] (-) TimerEvent: {}
+[16.641142] (-) TimerEvent: {}
+[16.742024] (-) TimerEvent: {}
+[16.842751] (-) TimerEvent: {}
+[16.943472] (-) TimerEvent: {}
+[17.044548] (-) TimerEvent: {}
+[17.145334] (-) TimerEvent: {}
+[17.204483] (polygon_base) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[17.245580] (-) TimerEvent: {}
+[17.346304] (-) TimerEvent: {}
+[17.447114] (-) TimerEvent: {}
+[17.547834] (-) TimerEvent: {}
+[17.648542] (-) TimerEvent: {}
+[17.749328] (-) TimerEvent: {}
+[17.850114] (-) TimerEvent: {}
+[17.950821] (-) TimerEvent: {}
+[18.051685] (-) TimerEvent: {}
+[18.152554] (-) TimerEvent: {}
+[18.253247] (-) TimerEvent: {}
+[18.353664] (-) TimerEvent: {}
+[18.454232] (-) TimerEvent: {}
+[18.554815] (-) TimerEvent: {}
+[18.655199] (-) TimerEvent: {}
+[18.755749] (-) TimerEvent: {}
+[18.856377] (-) TimerEvent: {}
+[18.957313] (-) TimerEvent: {}
+[19.057742] (-) TimerEvent: {}
+[19.158495] (-) TimerEvent: {}
+[19.259348] (-) TimerEvent: {}
+[19.360025] (-) TimerEvent: {}
+[19.460892] (-) TimerEvent: {}
+[19.561625] (-) TimerEvent: {}
+[19.662116] (-) TimerEvent: {}
+[19.762864] (-) TimerEvent: {}
+[19.863565] (-) TimerEvent: {}
+[19.964329] (-) TimerEvent: {}
+[20.064782] (-) TimerEvent: {}
+[20.165370] (-) TimerEvent: {}
+[20.265896] (-) TimerEvent: {}
+[20.366562] (-) TimerEvent: {}
+[20.466890] (-) TimerEvent: {}
+[20.482838] (polygon_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[20.567094] (-) TimerEvent: {}
+[20.667527] (-) TimerEvent: {}
+[20.767884] (-) TimerEvent: {}
+[20.868602] (-) TimerEvent: {}
+[20.969360] (-) TimerEvent: {}
+[21.070144] (-) TimerEvent: {}
+[21.170986] (-) TimerEvent: {}
+[21.271813] (-) TimerEvent: {}
+[21.372576] (-) TimerEvent: {}
+[21.407419] (polygon_base) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[21.408609] (polygon_base) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bfmadera/ros2_ws/src/polygon_base/include>\n'}
+[21.409618] (polygon_base) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[21.443692] (polygon_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[21.472829] (-) TimerEvent: {}
+[21.487958] (polygon_base) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[21.488517] (polygon_base) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[21.511017] (polygon_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[21.513299] (polygon_base) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:74 (message):\n'}
+[21.514375] (polygon_base) StderrLine: {'line': b'  ament_package() called with unused arguments: include\n'}
+[21.514979] (polygon_base) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[21.515624] (polygon_base) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:68 (_ament_package)\n'}
+[21.516236] (polygon_base) StderrLine: {'line': b'  CMakeLists.txt:42 (ament_package)\n'}
+[21.516850] (polygon_base) StderrLine: {'line': b'\n'}
+[21.517822] (polygon_base) StderrLine: {'line': b'\x1b[0m\n'}
+[21.518383] (polygon_base) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[21.518926] (polygon_base) StdoutLine: {'line': b'See also "/home/bfmadera/ros2_ws/build/polygon_base/CMakeFiles/CMakeOutput.log".\n'}
+[21.532467] (polygon_base) CommandEnded: {'returncode': 1}
+[21.572951] (-) TimerEvent: {}
+[21.673355] (-) TimerEvent: {}
+[21.774103] (-) TimerEvent: {}
+[21.874622] (-) TimerEvent: {}
+[21.975110] (-) TimerEvent: {}
+[22.040831] (polygon_base) JobEnded: {'identifier': 'polygon_base', 'rc': 1}
+[22.052614] (polygon_plugins) JobSkipped: {'identifier': 'polygon_plugins'}
+[22.052852] (-) EventReactorShutdown: {}

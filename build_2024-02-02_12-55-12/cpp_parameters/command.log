@@ -1,0 +1,2 @@
+Invoking command in '/home/bfmadera/ros2_ws/build/cpp_parameters': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/bfmadera/ros2_ws/build/cpp_parameters -- -j8 -l8
+Invoked command in '/home/bfmadera/ros2_ws/build/cpp_parameters' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/bfmadera/ros2_ws/build/cpp_parameters -- -j8 -l8

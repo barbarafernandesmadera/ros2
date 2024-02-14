@@ -1,0 +1,410 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000148] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000169] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000187] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000204] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000224] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000270] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000351] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000370] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000390] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000435] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000456] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000492] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000552] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000621] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000640] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000660] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000681] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000718] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000750] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000810] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000876] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000894] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000938] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001000] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001018] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001038] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001078] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.001102] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.001163] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.099374] (-) TimerEvent: {}
+[0.105461] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.106172] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/bfmadera/ros2_ws/src/more_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/more_interfaces'], 'cwd': '/home/bfmadera/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bfmadera'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bfmadera/ros2_ws/install/tutorial_interfaces/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bfmadera/catkin_ws/devel/lib'), ('HOME', '/home/bfmadera'), ('OLDPWD', '/home/bfmadera'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bfmadera/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bfmadera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ''), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bfmadera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bfmadera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin'), ('SESSION_MANAGER', 'local/bfmadera-340XAA-350XAA-550XAA:@/tmp/.ICE-unix/2015,unix/bfmadera-340XAA-350XAA-550XAA:/tmp/.ICE-unix/2015'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b922bf9_f191_4e99_9124_56a657bc56b3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YDI3H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/bfmadera/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/bfmadera/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel')]), 'shell': False}
+[0.121916] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199496] (-) TimerEvent: {}
+[0.289484] (more_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.296794] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.297494] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.299598] (-) TimerEvent: {}
+[0.303469] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.306480] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.343535] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.372780] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399728] (-) TimerEvent: {}
+[0.449935] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.452203] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499812] (-) TimerEvent: {}
+[0.600054] (-) TimerEvent: {}
+[0.603642] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700170] (-) TimerEvent: {}
+[0.800438] (-) TimerEvent: {}
+[0.900689] (-) TimerEvent: {}
+[1.000954] (-) TimerEvent: {}
+[1.081487] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.101071] (-) TimerEvent: {}
+[1.201306] (-) TimerEvent: {}
+[1.298532] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.301374] (-) TimerEvent: {}
+[1.401594] (-) TimerEvent: {}
+[1.501844] (-) TimerEvent: {}
+[1.582289] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.601965] (-) TimerEvent: {}
+[1.609453] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.638051] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.638203] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.638275] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.678155] (more_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.702098] (-) TimerEvent: {}
+[1.715520] (more_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.718314] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bfmadera/ros2_ws/build/more_interfaces\n'}
+[1.727570] (more_interfaces) CommandEnded: {'returncode': 0}
+[1.728324] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[1.729320] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bfmadera/ros2_ws/build/more_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/bfmadera/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bfmadera'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bfmadera/ros2_ws/install/tutorial_interfaces/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bfmadera/catkin_ws/devel/lib'), ('HOME', '/home/bfmadera'), ('OLDPWD', '/home/bfmadera'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bfmadera/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bfmadera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ''), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bfmadera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bfmadera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin'), ('SESSION_MANAGER', 'local/bfmadera-340XAA-350XAA-550XAA:@/tmp/.ICE-unix/2015,unix/bfmadera-340XAA-350XAA-550XAA:/tmp/.ICE-unix/2015'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b922bf9_f191_4e99_9124_56a657bc56b3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YDI3H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/bfmadera/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/bfmadera/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel')]), 'shell': False}
+[1.778812] (more_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.790991] (more_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.799913] (more_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_more_interfaces\n'}
+[1.802184] (-) TimerEvent: {}
+[1.902482] (-) TimerEvent: {}
+[2.002753] (-) TimerEvent: {}
+[2.103036] (-) TimerEvent: {}
+[2.114118] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.114748] (more_interfaces) StdoutLine: {'line': b'creating more_interfaces.egg-info\n'}
+[2.114965] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[2.115148] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[2.115328] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[2.115531] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[2.117706] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[2.118223] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[2.151014] (more_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[2.203159] (-) TimerEvent: {}
+[2.303421] (-) TimerEvent: {}
+[2.364833] (more_interfaces) StdoutLine: {'line': b'[  4%] Built target more_interfaces__cpp\n'}
+[2.382549] (more_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.382921] (more_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.383108] (more_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.403536] (-) TimerEvent: {}
+[2.434364] (more_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o\x1b[0m\n'}
+[2.434627] (more_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/srv/detail/service1__functions.c.o\x1b[0m\n'}
+[2.503640] (-) TimerEvent: {}
+[2.603971] (-) TimerEvent: {}
+[2.704258] (-) TimerEvent: {}
+[2.804533] (-) TimerEvent: {}
+[2.812737] (more_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.816889] (more_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/srv/service1__type_support.cpp.o\x1b[0m\n'}
+[2.841351] (more_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/srv/detail/service1__type_support.cpp.o\x1b[0m\n'}
+[2.841693] (more_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.904682] (-) TimerEvent: {}
+[2.950131] (more_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.950379] (more_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/srv/detail/dds_fastrtps/service1__type_support.cpp.o\x1b[0m\n'}
+[3.004951] (-) TimerEvent: {}
+[3.105628] (-) TimerEvent: {}
+[3.206290] (-) TimerEvent: {}
+[3.306941] (-) TimerEvent: {}
+[3.407633] (-) TimerEvent: {}
+[3.496449] (more_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.507721] (-) TimerEvent: {}
+[3.608193] (-) TimerEvent: {}
+[3.645178] (more_interfaces) StdoutLine: {'line': b'[ 34%] Built target more_interfaces__rosidl_generator_c\n'}
+[3.657950] (more_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.658264] (more_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.708408] (-) TimerEvent: {}
+[3.809091] (-) TimerEvent: {}
+[3.909669] (-) TimerEvent: {}
+[4.009974] (-) TimerEvent: {}
+[4.110371] (-) TimerEvent: {}
+[4.210989] (-) TimerEvent: {}
+[4.311664] (-) TimerEvent: {}
+[4.412311] (-) TimerEvent: {}
+[4.512910] (-) TimerEvent: {}
+[4.613361] (-) TimerEvent: {}
+[4.666948] (more_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[4.689036] (more_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o\x1b[0m\n'}
+[4.713442] (-) TimerEvent: {}
+[4.813856] (-) TimerEvent: {}
+[4.915057] (-) TimerEvent: {}
+[4.928739] (more_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/srv/detail/service1__type_support.c.o\x1b[0m\n'}
+[5.007447] (more_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.015187] (-) TimerEvent: {}
+[5.072477] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.096595] (more_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.101821] (more_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/srv/detail/service1__type_support_c.cpp.o\x1b[0m\n'}
+[5.104134] (more_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.115291] (-) TimerEvent: {}
+[5.206925] (more_interfaces) StdoutLine: {'line': b'[ 56%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[5.215436] (-) TimerEvent: {}
+[5.254738] (more_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\x1b[0m\n'}
+[5.315545] (-) TimerEvent: {}
+[5.415942] (-) TimerEvent: {}
+[5.454117] (more_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.516062] (-) TimerEvent: {}
+[5.563254] (more_interfaces) StdoutLine: {'line': b'[ 60%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.598232] (more_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.616173] (-) TimerEvent: {}
+[5.710838] (more_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.716322] (-) TimerEvent: {}
+[5.736079] (more_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[5.741954] (more_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/srv/service1__type_support.cpp.o\x1b[0m\n'}
+[5.798500] (more_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.803511] (more_interfaces) StdoutLine: {'line': b'[ 73%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.816442] (-) TimerEvent: {}
+[5.842187] (more_interfaces) StdoutLine: {'line': b'[ 73%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.862412] (more_interfaces) StdoutLine: {'line': b'[ 73%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[5.889082] (more_interfaces) StdoutLine: {'line': b'[ 73%] Built target more_interfaces\n'}
+[5.916568] (-) TimerEvent: {}
+[5.917174] (more_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.016822] (-) TimerEvent: {}
+[6.117408] (-) TimerEvent: {}
+[6.217708] (-) TimerEvent: {}
+[6.318043] (-) TimerEvent: {}
+[6.418491] (-) TimerEvent: {}
+[6.518994] (-) TimerEvent: {}
+[6.619595] (-) TimerEvent: {}
+[6.720317] (-) TimerEvent: {}
+[6.820764] (-) TimerEvent: {}
+[6.920980] (-) TimerEvent: {}
+[7.021255] (-) TimerEvent: {}
+[7.110727] (more_interfaces) StdoutLine: {'line': b'[ 75%] Built target more_interfaces__py\n'}
+[7.121351] (-) TimerEvent: {}
+[7.136667] (more_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o\x1b[0m\n'}
+[7.136960] (more_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/srv/_service1_s.c.o\x1b[0m\n'}
+[7.221546] (-) TimerEvent: {}
+[7.322264] (-) TimerEvent: {}
+[7.422942] (-) TimerEvent: {}
+[7.523857] (-) TimerEvent: {}
+[7.624214] (-) TimerEvent: {}
+[7.724882] (-) TimerEvent: {}
+[7.825780] (-) TimerEvent: {}
+[7.926409] (-) TimerEvent: {}
+[8.027015] (-) TimerEvent: {}
+[8.127572] (-) TimerEvent: {}
+[8.193278] (more_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[8.227658] (-) TimerEvent: {}
+[8.243704] (more_interfaces) StdoutLine: {'line': b'[ 82%] Built target more_interfaces__rosidl_generator_py\n'}
+[8.270225] (more_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.270503] (more_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.270671] (more_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.327768] (-) TimerEvent: {}
+[8.414773] (more_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.415061] (more_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.416007] (more_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.427886] (-) TimerEvent: {}
+[8.494789] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.495023] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.495111] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.528128] (-) TimerEvent: {}
+[8.628831] (-) TimerEvent: {}
+[8.729262] (-) TimerEvent: {}
+[8.829527] (-) TimerEvent: {}
+[8.929804] (-) TimerEvent: {}
+[9.030084] (-) TimerEvent: {}
+[9.130485] (-) TimerEvent: {}
+[9.230780] (-) TimerEvent: {}
+[9.331073] (-) TimerEvent: {}
+[9.431355] (-) TimerEvent: {}
+[9.531633] (-) TimerEvent: {}
+[9.631930] (-) TimerEvent: {}
+[9.732222] (-) TimerEvent: {}
+[9.832521] (-) TimerEvent: {}
+[9.932811] (-) TimerEvent: {}
+[10.033088] (-) TimerEvent: {}
+[10.133349] (-) TimerEvent: {}
+[10.233602] (-) TimerEvent: {}
+[10.333879] (-) TimerEvent: {}
+[10.434198] (-) TimerEvent: {}
+[10.534514] (-) TimerEvent: {}
+[10.634868] (-) TimerEvent: {}
+[10.735163] (-) TimerEvent: {}
+[10.835460] (-) TimerEvent: {}
+[10.935706] (-) TimerEvent: {}
+[11.035993] (-) TimerEvent: {}
+[11.136274] (-) TimerEvent: {}
+[11.236560] (-) TimerEvent: {}
+[11.336838] (-) TimerEvent: {}
+[11.437173] (-) TimerEvent: {}
+[11.537459] (-) TimerEvent: {}
+[11.637807] (-) TimerEvent: {}
+[11.738062] (-) TimerEvent: {}
+[11.838419] (-) TimerEvent: {}
+[11.938672] (-) TimerEvent: {}
+[12.039027] (-) TimerEvent: {}
+[12.139296] (-) TimerEvent: {}
+[12.239568] (-) TimerEvent: {}
+[12.339812] (-) TimerEvent: {}
+[12.440059] (-) TimerEvent: {}
+[12.540340] (-) TimerEvent: {}
+[12.640618] (-) TimerEvent: {}
+[12.740889] (-) TimerEvent: {}
+[12.841194] (-) TimerEvent: {}
+[12.941498] (-) TimerEvent: {}
+[13.041778] (-) TimerEvent: {}
+[13.142011] (-) TimerEvent: {}
+[13.242259] (-) TimerEvent: {}
+[13.257983] (more_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publish_address_book\x1b[0m\n'}
+[13.342400] (-) TimerEvent: {}
+[13.442791] (-) TimerEvent: {}
+[13.543457] (-) TimerEvent: {}
+[13.644205] (-) TimerEvent: {}
+[13.744869] (-) TimerEvent: {}
+[13.845340] (-) TimerEvent: {}
+[13.945764] (-) TimerEvent: {}
+[14.046529] (-) TimerEvent: {}
+[14.132344] (more_interfaces) StdoutLine: {'line': b'[100%] Built target publish_address_book\n'}
+[14.146652] (-) TimerEvent: {}
+[14.147804] (more_interfaces) CommandEnded: {'returncode': 0}
+[14.246733] (-) TimerEvent: {}
+[14.260492] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[14.270942] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bfmadera/ros2_ws/build/more_interfaces'], 'cwd': '/home/bfmadera/ros2_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bfmadera'), ('PT8HOME', '/opt/pt'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bfmadera/ros2_ws/install/tutorial_interfaces/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber/lib:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/bfmadera/catkin_ws/devel/lib'), ('HOME', '/home/bfmadera'), ('OLDPWD', '/home/bfmadera'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2039'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bfmadera/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'bfmadera'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ''), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bfmadera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/bfmadera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-11-openjdk-amd64/bin'), ('SESSION_MANAGER', 'local/bfmadera-340XAA-350XAA-550XAA:@/tmp/.ICE-unix/2015,unix/bfmadera-340XAA-350XAA-550XAA:/tmp/.ICE-unix/2015'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7b922bf9_f191_4e99_9124_56a657bc56b3'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.YDI3H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.166'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('JAVA_HOME', '/usr/lib/jvm/java-11-openjdk-amd64'), ('PWD', '/home/bfmadera/ros2_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bfmadera/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/bfmadera/ros2_ws/install/launch_testing_examples/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions/lib/python3.10/site-packages:/home/bfmadera/ros2_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel')]), 'shell': False}
+[14.282962] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.283816] (more_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.284380] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[14.297455] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h\n'}
+[14.308117] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h\n'}
+[14.318381] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h\n'}
+[14.328927] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[14.339416] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.346828] (-) TimerEvent: {}
+[14.349857] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__functions.h\n'}
+[14.360142] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__struct.h\n'}
+[14.370530] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__type_support.h\n'}
+[14.381622] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/service1.h\n'}
+[14.392452] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[14.402994] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[14.414914] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[14.425238] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.435429] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__rosidl_typesupport_fastrtps_c.h\n'}
+[14.446102] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[14.446908] (-) TimerEvent: {}
+[14.456698] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.467128] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__rosidl_typesupport_introspection_c.h\n'}
+[14.479649] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp\n'}
+[14.490470] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[14.501393] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[14.512072] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[14.522469] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__builder.hpp\n'}
+[14.532749] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__struct.hpp\n'}
+[14.543369] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__traits.hpp\n'}
+[14.547018] (-) TimerEvent: {}
+[14.553618] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/service1.hpp\n'}
+[14.564433] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.576456] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.587028] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.598051] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.608519] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.619392] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[14.629629] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[14.640420] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[14.647114] (-) TimerEvent: {}
+[14.650971] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[14.661085] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[14.671294] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[14.683264] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py\n'}
+[14.694150] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[14.705374] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.717477] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.728531] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so\n'}
+[14.739862] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.747262] (-) TimerEvent: {}
+[14.751438] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.763764] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.776964] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py\n'}
+[14.789005] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py\n'}
+[14.800708] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c\n'}
+[14.811656] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/__init__.py\n'}
+[14.822545] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/_service1.py\n'}
+[14.834133] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/_service1_s.c\n'}
+[14.844808] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.845174] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.845597] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.845924] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[14.847360] (-) TimerEvent: {}
+[14.856590] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/srv/Service1.idl\n'}
+[14.867099] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[14.878367] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/srv/Service1.srv\n'}
+[14.889252] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/srv/Service1_Request.msg\n'}
+[14.900280] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/srv/Service1_Response.msg\n'}
+[14.910889] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[14.921340] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[14.931766] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[14.942129] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[14.947455] (-) TimerEvent: {}
+[14.952654] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[14.963287] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[14.973940] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[14.984992] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[14.995775] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[15.006454] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[15.016852] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[15.027691] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[15.038246] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[15.047552] (-) TimerEvent: {}
+[15.048843] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[15.059204] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.069743] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.080765] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.091480] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.102366] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.112847] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.123214] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[15.133439] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[15.144204] (more_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[15.147664] (-) TimerEvent: {}
+[15.154764] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[15.155223] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""\n'}
+[15.155406] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[15.155768] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[15.155953] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[15.156227] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[15.156349] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[15.156682] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[15.156813] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.157237] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[15.157431] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[15.157929] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[15.158115] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[15.158377] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[15.247880] (-) TimerEvent: {}
+[15.270510] (more_interfaces) StdoutLine: {'line': b"Listing '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...\n"}
+[15.270733] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py'...\n"}
+[15.270863] (more_interfaces) StdoutLine: {'line': b"Listing '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...\n"}
+[15.270968] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py'...\n"}
+[15.271058] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py'...\n"}
+[15.271145] (more_interfaces) StdoutLine: {'line': b"Listing '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv'...\n"}
+[15.271230] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/__init__.py'...\n"}
+[15.271316] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/_service1.py'...\n"}
+[15.276743] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so\n'}
+[15.277427] (more_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""\n'}
+[15.277811] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake\n'}
+[15.278156] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.278423] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.278593] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.278679] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.278829] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.278976] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[15.279202] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.279396] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[15.279586] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.279774] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.279927] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.280138] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.280314] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[15.280535] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.280668] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake\n'}
+[15.280845] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.283378] (more_interfaces) CommandEnded: {'returncode': 0}
+[15.348037] (-) TimerEvent: {}
+[15.448399] (-) TimerEvent: {}
+[15.548832] (-) TimerEvent: {}
+[15.581546] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[15.582197] (-) EventReactorShutdown: {}

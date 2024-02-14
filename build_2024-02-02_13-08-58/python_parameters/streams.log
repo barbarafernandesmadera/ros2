@@ -1,0 +1,40 @@
+[1.398s] Invoking command in '/home/bfmadera/ros2_ws/src/python_parameters': PYTHONPATH=/home/bfmadera/ros2_ws/build/python_parameters/prefix_override:/home/bfmadera/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/bfmadera/ros2_ws/build/python_parameters/build install --record /home/bfmadera/ros2_ws/build/python_parameters/install.log --single-version-externally-managed
+[1.681s] running egg_info
+[1.682s] creating ../../build/python_parameters/python_parameters.egg-info
+[1.682s] writing ../../build/python_parameters/python_parameters.egg-info/PKG-INFO
+[1.682s] writing dependency_links to ../../build/python_parameters/python_parameters.egg-info/dependency_links.txt
+[1.682s] writing entry points to ../../build/python_parameters/python_parameters.egg-info/entry_points.txt
+[1.683s] writing requirements to ../../build/python_parameters/python_parameters.egg-info/requires.txt
+[1.683s] writing top-level names to ../../build/python_parameters/python_parameters.egg-info/top_level.txt
+[1.683s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[1.684s] reading manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[1.684s] adding license file 'LICENSE'
+[1.685s] writing manifest file '../../build/python_parameters/python_parameters.egg-info/SOURCES.txt'
+[1.685s] running build
+[1.685s] running build_py
+[1.686s] creating /home/bfmadera/ros2_ws/build/python_parameters/build
+[1.686s] creating /home/bfmadera/ros2_ws/build/python_parameters/build/lib
+[1.686s] creating /home/bfmadera/ros2_ws/build/python_parameters/build/lib/python_parameters
+[1.686s] copying python_parameters/python_parameters_node.py -> /home/bfmadera/ros2_ws/build/python_parameters/build/lib/python_parameters
+[1.686s] copying python_parameters/__init__.py -> /home/bfmadera/ros2_ws/build/python_parameters/build/lib/python_parameters
+[1.686s] running install
+[1.697s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.697s]   warnings.warn(
+[1.697s] running install_lib
+[1.698s] creating /home/bfmadera/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[1.698s] copying /home/bfmadera/ros2_ws/build/python_parameters/build/lib/python_parameters/python_parameters_node.py -> /home/bfmadera/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[1.699s] copying /home/bfmadera/ros2_ws/build/python_parameters/build/lib/python_parameters/__init__.py -> /home/bfmadera/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters
+[1.699s] byte-compiling /home/bfmadera/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/python_parameters_node.py to python_parameters_node.cpython-310.pyc
+[1.699s] byte-compiling /home/bfmadera/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters/__init__.py to __init__.cpython-310.pyc
+[1.700s] running install_data
+[1.700s] creating /home/bfmadera/ros2_ws/install/python_parameters/share/ament_index
+[1.700s] creating /home/bfmadera/ros2_ws/install/python_parameters/share/ament_index/resource_index
+[1.700s] creating /home/bfmadera/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[1.701s] copying resource/python_parameters -> /home/bfmadera/ros2_ws/install/python_parameters/share/ament_index/resource_index/packages
+[1.701s] copying package.xml -> /home/bfmadera/ros2_ws/install/python_parameters/share/python_parameters
+[1.701s] running install_egg_info
+[1.703s] Copying ../../build/python_parameters/python_parameters.egg-info to /home/bfmadera/ros2_ws/install/python_parameters/lib/python3.10/site-packages/python_parameters-0.0.0-py3.10.egg-info
+[1.704s] running install_scripts
+[1.725s] Installing minimal_param_node script to /home/bfmadera/ros2_ws/install/python_parameters/lib/python_parameters
+[1.725s] writing list of installed files to '/home/bfmadera/ros2_ws/build/python_parameters/install.log'
+[1.755s] Invoked command in '/home/bfmadera/ros2_ws/src/python_parameters' returned '0': PYTHONPATH=/home/bfmadera/ros2_ws/build/python_parameters/prefix_override:/home/bfmadera/ros2_ws/install/python_parameters/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/python_parameters build --build-base /home/bfmadera/ros2_ws/build/python_parameters/build install --record /home/bfmadera/ros2_ws/build/python_parameters/install.log --single-version-externally-managed

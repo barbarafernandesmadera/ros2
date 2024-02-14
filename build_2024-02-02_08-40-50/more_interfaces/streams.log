@@ -1,0 +1,219 @@
+[0.106s] Invoking command in '/home/bfmadera/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel /usr/bin/cmake /home/bfmadera/ros2_ws/src/more_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/more_interfaces
+[0.121s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.288s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.296s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.296s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.305s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.342s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.372s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.449s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.451s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.603s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.080s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.581s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.608s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.637s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.637s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.637s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.677s] -- Configuring done
+[1.714s] -- Generating done
+[1.717s] -- Build files have been written to: /home/bfmadera/ros2_ws/build/more_interfaces
+[1.727s] Invoked command in '/home/bfmadera/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel /usr/bin/cmake /home/bfmadera/ros2_ws/src/more_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/more_interfaces
+[1.729s] Invoking command in '/home/bfmadera/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel /usr/bin/cmake --build /home/bfmadera/ros2_ws/build/more_interfaces -- -j8 -l8
+[1.778s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.790s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.799s] [  4%] Built target ament_cmake_python_symlink_more_interfaces
+[2.113s] running egg_info
+[2.114s] creating more_interfaces.egg-info
+[2.114s] writing more_interfaces.egg-info/PKG-INFO
+[2.114s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[2.114s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[2.114s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.117s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.117s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[2.150s] [  4%] Built target ament_cmake_python_build_more_interfaces_egg
+[2.364s] [  4%] Built target more_interfaces__cpp
+[2.382s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.382s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.382s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.433s] [ 14%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[2.433s] [ 17%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/srv/detail/service1__functions.c.o[0m
+[2.812s] [ 19%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[2.816s] [ 21%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/srv/service1__type_support.cpp.o[0m
+[2.840s] [ 24%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/srv/detail/service1__type_support.cpp.o[0m
+[2.841s] [ 26%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[2.949s] [ 29%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[2.949s] [ 31%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/srv/detail/dds_fastrtps/service1__type_support.cpp.o[0m
+[3.496s] [ 34%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[3.644s] [ 34%] Built target more_interfaces__rosidl_generator_c
+[3.657s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.657s] [ 39%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.666s] [ 41%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[4.688s] [ 43%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[4.928s] [ 46%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/srv/detail/service1__type_support.c.o[0m
+[5.006s] [ 48%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.071s] [ 48%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[5.096s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.101s] [ 53%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/srv/detail/service1__type_support_c.cpp.o[0m
+[5.103s] [ 56%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[5.206s] [ 56%] Built target more_interfaces__rosidl_typesupport_cpp
+[5.254s] [ 58%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[5.453s] [ 60%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.562s] [ 60%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[5.597s] [ 63%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.710s] [ 65%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[5.735s] [ 68%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[5.741s] [ 70%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/srv/service1__type_support.cpp.o[0m
+[5.797s] [ 73%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[5.803s] [ 73%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.841s] [ 73%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[5.861s] [ 73%] Built target more_interfaces__rosidl_typesupport_c
+[5.888s] [ 73%] Built target more_interfaces
+[5.916s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.110s] [ 75%] Built target more_interfaces__py
+[7.136s] [ 78%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[7.136s] [ 80%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/srv/_service1_s.c.o[0m
+[8.192s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__rosidl_generator_py.so[0m
+[8.243s] [ 82%] Built target more_interfaces__rosidl_generator_py
+[8.269s] [ 90%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[8.269s] [ 90%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.270s] [ 90%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.414s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.414s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.415s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.494s] [ 97%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[8.494s] [ 97%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.494s] [ 97%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[13.257s] [100%] [32m[1mLinking CXX executable publish_address_book[0m
+[14.131s] [100%] Built target publish_address_book
+[14.147s] Invoked command in '/home/bfmadera/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel /usr/bin/cmake --build /home/bfmadera/ros2_ws/build/more_interfaces -- -j8 -l8
+[14.271s] Invoking command in '/home/bfmadera/ros2_ws/build/more_interfaces': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel /usr/bin/cmake --install /home/bfmadera/ros2_ws/build/more_interfaces
+[14.282s] -- Install configuration: ""
+[14.283s] -- Execute custom install script
+[14.283s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[14.296s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[14.307s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[14.317s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[14.328s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[14.338s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[14.349s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__functions.h
+[14.359s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__struct.h
+[14.369s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__type_support.h
+[14.381s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/service1.h
+[14.391s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[14.402s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[14.414s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[14.424s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.434s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__rosidl_typesupport_fastrtps_c.h
+[14.445s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[14.456s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.466s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__rosidl_typesupport_introspection_c.h
+[14.479s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[14.489s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[14.500s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[14.511s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[14.521s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__builder.hpp
+[14.532s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__struct.hpp
+[14.542s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__traits.hpp
+[14.553s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/service1.hpp
+[14.563s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[14.575s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.586s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__rosidl_typesupport_fastrtps_cpp.hpp
+[14.597s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[14.607s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/include/more_interfaces/more_interfaces/srv/detail/service1__rosidl_typesupport_introspection_cpp.hpp
+[14.618s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[14.629s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[14.639s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[14.650s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.660s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.670s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[14.682s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py
+[14.693s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[14.704s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.716s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[14.727s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[14.739s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.750s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.763s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.776s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py
+[14.788s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py
+[14.800s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c
+[14.811s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/__init__.py
+[14.821s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/_service1.py
+[14.833s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/_service1_s.c
+[14.844s] -- Up-to-date symlink: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.844s] -- Up-to-date symlink: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.845s] -- Up-to-date symlink: /home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.845s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[14.856s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/srv/Service1.idl
+[14.866s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[14.877s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/srv/Service1.srv
+[14.888s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/srv/Service1_Request.msg
+[14.899s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/srv/Service1_Response.msg
+[14.910s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[14.920s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[14.931s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[14.941s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[14.952s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[14.962s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[14.973s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[14.984s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[14.995s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[15.005s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[15.016s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[15.027s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[15.037s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[15.048s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[15.058s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.069s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[15.080s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[15.090s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.101s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.112s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.122s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[15.132s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[15.143s] -- Symlinking: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/package.xml
+[15.154s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[15.154s] -- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""
+[15.154s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[15.155s] -- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[15.155s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[15.155s] -- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[15.155s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[15.156s] -- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""
+[15.156s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[15.156s] -- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.156s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[15.157s] -- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[15.157s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[15.157s] -- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""
+[15.269s] Listing '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...
+[15.270s] Compiling '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py'...
+[15.270s] Listing '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...
+[15.270s] Compiling '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py'...
+[15.270s] Compiling '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py'...
+[15.270s] Listing '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv'...
+[15.270s] Compiling '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/__init__.py'...
+[15.270s] Compiling '/home/bfmadera/ros2_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/srv/_service1.py'...
+[15.276s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[15.276s] -- Set runtime path of "/home/bfmadera/ros2_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""
+[15.277s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake
+[15.277s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[15.277s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[15.277s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.278s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[15.278s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.278s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[15.278s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[15.278s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake
+[15.278s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.279s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.279s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[15.279s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.279s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[15.279s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[15.280s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake
+[15.280s] -- Installing: /home/bfmadera/ros2_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[15.283s] Invoked command in '/home/bfmadera/ros2_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/bfmadera/ros2_ws/install/cpp_srvcli:/home/bfmadera/ros2_ws/install/cpp_pubsub:/home/bfmadera/ros2_ws/install/tutorial_interfaces:/home/bfmadera/ros2_ws/install/my_package:/home/bfmadera/ros2_ws/install/examples_rclcpp_wait_set:/home/bfmadera/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_timer:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_composition:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclcpp_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclcpp_cbg_executor:/home/bfmadera/ros2_ws/install/examples_rclcpp_async_client:/home/bfmadera/ros2_ws/install/py_srvcli:/home/bfmadera/ros2_ws/install/py_pubsub:/home/bfmadera/ros2_ws/install/launch_testing_examples:/home/bfmadera/ros2_ws/install/examples_rclpy_pointcloud_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_service:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_publisher:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_client:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_server:/home/bfmadera/ros2_ws/install/examples_rclpy_minimal_action_client:/home/bfmadera/ros2_ws/install/examples_rclpy_guard_conditions:/home/bfmadera/ros2_ws/install/examples_rclpy_executors:/opt/ros/humble:/home/bfmadera/catkin_ws/devel /usr/bin/cmake --install /home/bfmadera/ros2_ws/build/more_interfaces

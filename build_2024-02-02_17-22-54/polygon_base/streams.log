@@ -1,0 +1,34 @@
+[0.487s] Invoking command in '/home/bfmadera/ros2_ws/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/bfmadera/ros2_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/polygon_base
+[8.348s] -- The C compiler identification is GNU 11.4.0
+[11.887s] -- The CXX compiler identification is GNU 11.4.0
+[12.606s] -- Detecting C compiler ABI info
+[13.379s] -- Detecting C compiler ABI info - done
+[13.390s] -- Check for working C compiler: /usr/bin/cc - skipped
+[13.397s] -- Detecting C compile features
+[13.443s] -- Detecting C compile features - done
+[13.578s] -- Detecting CXX compiler ABI info
+[13.956s] -- Detecting CXX compiler ABI info - done
+[13.966s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[13.966s] -- Detecting CXX compile features
+[13.967s] -- Detecting CXX compile features - done
+[14.632s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[15.567s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[17.203s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[20.481s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[21.406s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[21.407s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bfmadera/ros2_ws/src/polygon_base/include>
+[21.408s] -- Configured cppcheck exclude dirs and/or files: 
+[21.442s] -- Added test 'lint_cmake' to check CMake code style
+[21.487s] -- Added test 'uncrustify' to check C / C++ code style
+[21.487s] -- Configured uncrustify additional arguments: 
+[21.510s] -- Added test 'xmllint' to check XML markup files
+[21.512s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:74 (message):
+[21.513s]   ament_package() called with unused arguments: include
+[21.514s] Call Stack (most recent call first):
+[21.514s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:68 (_ament_package)
+[21.515s]   CMakeLists.txt:42 (ament_package)
+[21.516s] 
+[21.516s] [0m
+[21.517s] -- Configuring incomplete, errors occurred!
+[21.518s] See also "/home/bfmadera/ros2_ws/build/polygon_base/CMakeFiles/CMakeOutput.log".
+[21.531s] Invoked command in '/home/bfmadera/ros2_ws/build/polygon_base' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/bfmadera/ros2_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/bfmadera/ros2_ws/install/polygon_base
