@@ -1,0 +1,3 @@
+/home/bfmadera/ros2_ws/install/polygon_plugins/lib/libpolygon_plugins.so
+/home/bfmadera/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport.cmake
+/home/bfmadera/ros2_ws/install/polygon_plugins/share/polygon_plugins/cmake/export_polygon_pluginsExport-debug.cmake
